@@ -1,24 +1,344 @@
+<div align="center">
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/pdRysNm7) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/zumaan_sayyed07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/zumaan-sayyed-4b0645284) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/user:29436805) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@SayyedZumaan07) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Zumaan-Sayyed) 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=ZUMAAN%20SAYYED&fontSize=46&fontColor=F8FAFC&fontAlignY=38&desc=SOFTWARE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20AI%20%E2%80%A2%20CLOUD&descSize=13&descAlignY=63&color=0:020617,45:0B1220,75:111827,100:020617" width="100%"/>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=EnternalBlue07&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=EnternalBlue07&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=EnternalBlue07&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=EnternalBlue07&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=67E8F9&center=true&vCenter=true&width=720&lines=I+build+digital+experiences.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Ideas+are+cheap.+Building+is+the+fun+part." alt="Typing SVG"/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br><br>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=EnternalBlue07&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<a href="https://github.com/EnternalBlue07">
+<img src="https://img.shields.io/badge/GITHUB-0B0F14?style=flat-square&logo=github&logoColor=FFFFFF"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://img.shields.io/badge/LINKEDIN-0B0F14?style=flat-square&logo=linkedin&logoColor=67E8F9"/>
+</a>
+&nbsp;
+<a href="https://instagram.com/zumaan_sayyed07">
+<img src="https://img.shields.io/badge/INSTAGRAM-0B0F14?style=flat-square&logo=instagram&logoColor=E4405F"/>
+</a>
+&nbsp;
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://img.shields.io/badge/X-0B0F14?style=flat-square&logo=x&logoColor=FFFFFF"/>
+</a>
+&nbsp;
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://img.shields.io/badge/DISCORD-0B0F14?style=flat-square&logo=discord&logoColor=7289DA"/>
+</a>
+&nbsp;
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://img.shields.io/badge/CODEPEN-0B0F14?style=flat-square&logo=codepen&logoColor=FFFFFF"/>
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=EnternalBlue07&label=VISITORS&style=flat-square&color=67E8F9&labelColor=0B0F14"/>
+
+</div>
+
+<br>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=EnternalBlue07&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<div align="center">
+
+## `HELLO, I'M ZUMAAN.`
+
+### Developer. Designer. Builder.
+
+**I turn ideas into interfaces, systems and experiences.**
+
+I enjoy the space where **software engineering meets visual design, AI, cloud and creativity.**
+
+<br>
+
+`BUILD` &nbsp; `DESIGN` &nbsp; `ENGINEER` &nbsp; `EXPERIMENT` &nbsp; `SHIP`
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### ✦ A LITTLE ABOUT ME
+
+I'm interested in building things that are not only functional, but also **thoughtful, polished and enjoyable to use**.
+
+My work moves between:
+
+- software development
+- full-stack applications
+- AI-powered systems
+- cloud technologies
+- UI / UX
+- data & visualization
+- creative technology
+
+I like learning by building — especially when the project starts as a crazy idea and slowly becomes something real.
+
+</td>
+
+<td width="45%" valign="top">
+
+### SYSTEM STATUS
+
+<img src="https://img.shields.io/badge/STATUS-ONLINE-67E8F9?style=for-the-badge&labelColor=0B0F14&color=0B0F14"/>
+
+<br><br>
+
+**ROLE**
+
+`Developer / Designer`
+
+**FOCUS**
+
+`Software + AI + Cloud`
+
+**MODE**
+
+`BUILDING`
+
+**MINDSET**
+
+`Curiosity > Comfort`
+
+**COFFEE**
+
+`REQUIRED`
+
+**BUGS**
+
+`UNDER INVESTIGATION`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="78%"/>
+
+<br><br>
+
+### `MAKE IT USEFUL.`
+### `MAKE IT BEAUTIFUL.`
+### `MAKE IT WORK.`
+
+</div>
+
+---
+
+## `01 / TECHNOLOGY`
+
+<div align="center">
+
+### LANGUAGES
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,sql,md&perline=11"/>
+
+<br><br>
+
+### DEVELOPMENT
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=10"/>
+
+<br><br>
+
+### CLOUD • DATABASE • SYSTEMS
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=7"/>
+
+<br><br>
+
+### DESIGN • CREATIVE
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+`C` · `C++` · `Java` · `Python` · `JavaScript` · `TypeScript`  
+`HTML` · `CSS` · `Dart` · `SQL` · `Markdown`
+
+`React` · `Next.js` · `Node.js` · `Flask` · `Flutter` · `Tailwind`
+
+`AWS` · `Google Cloud` · `Azure` · `Docker` · `Firebase`
+
+`MySQL` · `PostgreSQL` · `MongoDB` · `Linux`
+
+`Figma` · `Photoshop` · `Illustrator` · `After Effects` · `Canva`
+
+</div>
+
+<br>
+
+> **The technology changes. The curiosity doesn't.**
+
+---
+
+## `02 / WHAT I BUILD`
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=105&text=CODE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20INTELLIGENCE%20%E2%80%A2%20SYSTEMS&fontSize=18&fontColor=E6F7FF&color=0:071116,50:10212B,100:071116&fontAlignY=55" width="94%"/>
+
+<br><br>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### ⚙️
+
+**SOFTWARE**
+
+Applications  
+Systems  
+Architecture
+
+</td>
+
+<td align="center" width="25%">
+
+### ◈
+
+**AI**
+
+Agents  
+Automation  
+Intelligence
+
+</td>
+
+<td align="center" width="25%">
+
+### ☁️
+
+**CLOUD**
+
+APIs  
+Infrastructure  
+Deployment
+
+</td>
+
+<td align="center" width="25%">
+
+### ✦
+
+**DESIGN**
+
+UI / UX  
+Visuals  
+Experiences
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## `03 / GITHUB`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=EnternalBlue07&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=0B0F14&title_color=67E8F9&icon_color=67E8F9&text_color=D8DEE9" width="49%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EnternalBlue07&layout=compact&langs_count=8&hide_border=true&bg_color=0B0F14&title_color=67E8F9&text_color=D8DEE9" width="49%"/>
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=EnternalBlue07&theme=dark&hide_border=true&background=0B0F14&ring=67E8F9&fire=F59E0B&currStreakLabel=67E8F9&sideLabels=D8DEE9&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF" width="70%"/>
+
+</div>
+
+---
+
+## `04 / CONTRIBUTION ACTIVITY`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EnternalBlue07&bg_color=0B0F14&color=67E8F9&line=67E8F9&point=FFFFFF&area=true&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY" width="96%"/>
+
+</div>
+
+---
+
+## `05 / DIGITAL PRESENCE`
+
+<div align="center">
+
+<a href="https://github.com/EnternalBlue07">
+<img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-0B0F14?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+</a>
+
+&nbsp;
+
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B0F14?style=for-the-badge&logo=linkedin&logoColor=67E8F9"/>
+</a>
+
+&nbsp;
+
+<a href="https://instagram.com/zumaan_sayyed07">
+<img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-0B0F14?style=for-the-badge&logo=instagram&logoColor=E4405F"/>
+</a>
+
+&nbsp;
+
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://img.shields.io/badge/X-FOLLOW-0B0F14?style=for-the-badge&logo=x&logoColor=FFFFFF"/>
+</a>
+
+<br><br>
+
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://img.shields.io/badge/DISCORD-JOIN-0B0F14?style=for-the-badge&logo=discord&logoColor=7289DA"/>
+</a>
+
+&nbsp;
+
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://img.shields.io/badge/CODEPEN-EXPERIMENTS-0B0F14?style=for-the-badge&logo=codepen&logoColor=FFFFFF"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="72%"/>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=EnternalBlue07&label=THANKS%20FOR%20VISITING&style=flat-square&color=67E8F9&labelColor=0B0F14"/>
+
+<br><br>
+
+<sub>BUILT WITH CURIOSITY · CODE · DESIGN · TOO MANY IDEAS</sub>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:020617,50:0B1117,100:020408" width="100%"/>
+
+</div>
