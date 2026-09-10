@@ -1,40 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=ZUMAAN%20SAYYED&fontSize=46&fontColor=F8FAFC&fontAlignY=38&desc=SOFTWARE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20AI%20%E2%80%A2%20CLOUD&descSize=13&descAlignY=63&color=0:020617,45:0B1220,75:111827,100:020617" width="100%"/>
-
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=67E8F9&center=true&vCenter=true&width=720&lines=I+build+digital+experiences.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Ideas+are+cheap.+Building+is+the+fun+part." alt="Typing SVG"/>
+<a href="https://github.com/EnternalBlue07">
+<img src="https://skillicons.dev/icons?i=github" width="52" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://skillicons.dev/icons?i=linkedin" width="52" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/zumaan_sayyed07">
+<img src="https://skillicons.dev/icons?i=instagram" width="52" alt="Instagram"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://skillicons.dev/icons?i=x" width="52" alt="X"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://skillicons.dev/icons?i=discord" width="52" alt="Discord"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://skillicons.dev/icons?i=codepen" width="52" alt="CodePen"/>
+</a>
 
 <br><br>
 
-<a href="https://github.com/EnternalBlue07">
-<img src="https://img.shields.io/badge/GITHUB-0B0F14?style=flat-square&logo=github&logoColor=FFFFFF"/>
-</a>
-&nbsp;
-<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
-<img src="https://img.shields.io/badge/LINKEDIN-0B0F14?style=flat-square&logo=linkedin&logoColor=67E8F9"/>
-</a>
-&nbsp;
-<a href="https://instagram.com/zumaan_sayyed07">
-<img src="https://img.shields.io/badge/INSTAGRAM-0B0F14?style=flat-square&logo=instagram&logoColor=E4405F"/>
-</a>
-&nbsp;
-<a href="https://x.com/SayyedZumaan07">
-<img src="https://img.shields.io/badge/X-0B0F14?style=flat-square&logo=x&logoColor=FFFFFF"/>
-</a>
-&nbsp;
-<a href="https://discord.gg/pdRysNm7">
-<img src="https://img.shields.io/badge/DISCORD-0B0F14?style=flat-square&logo=discord&logoColor=7289DA"/>
-</a>
-&nbsp;
-<a href="https://codepen.io/Zumaan-Sayyed">
-<img src="https://img.shields.io/badge/CODEPEN-0B0F14?style=flat-square&logo=codepen&logoColor=FFFFFF"/>
-</a>
+<sub>✦ FIND ME AROUND THE WEB ✦</sub>
 
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=EnternalBlue07&label=VISITORS&style=flat-square&color=67E8F9&labelColor=0B0F14"/>
+
+</div>
 
 </div>
 
