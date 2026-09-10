@@ -7,22 +7,22 @@
 <br><br>
 
 <a href="https://github.com/EnternalBlue07">
-<img src="https://img.shields.io/badge/GitHub-0B0F14?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GITHUB-0B0F14?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
-<img src="https://img.shields.io/badge/LinkedIn-0B0F14?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+<img src="https://img.shields.io/badge/LINKEDIN-0B0F14?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
 </a>
 <a href="https://instagram.com/zumaan_sayyed07">
-<img src="https://img.shields.io/badge/Instagram-0B0F14?style=for-the-badge&logo=instagram&logoColor=E4405F" />
+<img src="https://img.shields.io/badge/INSTAGRAM-0B0F14?style=for-the-badge&logo=instagram&logoColor=E4405F" />
 </a>
 <a href="https://x.com/SayyedZumaan07">
 <img src="https://img.shields.io/badge/X-0B0F14?style=for-the-badge&logo=x&logoColor=white" />
 </a>
 <a href="https://discord.gg/pdRysNm7">
-<img src="https://img.shields.io/badge/Discord-0B0F14?style=for-the-badge&logo=discord&logoColor=5865F2" />
+<img src="https://img.shields.io/badge/DISCORD-0B0F14?style=for-the-badge&logo=discord&logoColor=5865F2" />
 </a>
 <a href="https://codepen.io/Zumaan-Sayyed">
-<img src="https://img.shields.io/badge/CodePen-0B0F14?style=for-the-badge&logo=codepen&logoColor=white" />
+<img src="https://img.shields.io/badge/CODEPEN-0B0F14?style=for-the-badge&logo=codepen&logoColor=white" />
 </a>
 
 <br><br>
@@ -37,19 +37,19 @@
 
 <div align="center">
 
-### Developer • Designer • Builder
+**Developer • Designer • Builder**
 
-**I build software where engineering meets design, cloud, AI and creativity.**
+I build software where **engineering meets design, AI, cloud and creativity.**
 
-I enjoy taking an idea from a rough concept to a polished, usable system.
+I enjoy taking ideas from rough concepts to polished, usable systems.
 
-`SOFTWARE` &nbsp; `UI/UX` &nbsp; `AI` &nbsp; `CLOUD` &nbsp; `DATA` &nbsp; `CREATIVE TECHNOLOGY`
+`SOFTWARE` • `UI/UX` • `AI` • `CLOUD` • `DATA` • `CREATIVE TECHNOLOGY`
 
 </div>
 
 <br>
 
-```text
+<pre>
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                                                                              │
 │   ZUMAAN SAYYED                                                              │
@@ -65,148 +65,266 @@ I enjoy taking an idea from a rough concept to a polished, usable system.
 │   BUGS        FEATURED                                                       │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
+</pre>
 
-I don't just want things to work.
-I want them to feel like they were built properly.
+> I don't just want things to work.  
+> **I want them to feel like they were built properly.**
 
-02 / TECHNOLOGY
-Languages
-<div align="center"> <img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,sql,md" /> </div>
-Development
-<div align="center"> <img src="https://skillicons.dev/icons?i=react,nodejs,nextjs,flask,flutter,tailwind,git,github,docker,firebase" /> </div>
-Cloud / Database / Infrastructure
-<div align="center"> <img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux" /> </div>
-Design / Creative
-<div align="center"> <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva" /> </div> <br> <div align="center">
+---
 
-C • C++ • Java • Python • JavaScript • TypeScript • Dart
-React • Next.js • Node.js • Flask • Flutter
-AWS • Google Cloud • Azure • Docker • Firebase
-SQL • MySQL • PostgreSQL • MongoDB
-Figma • Photoshop • Illustrator • After Effects • Canva
+## `02 / TECHNOLOGY`
+
+### Languages
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,sql,md" />
 
 </div>
-03 / WHAT I BUILD
-<table> <tr> <td width="50%" valign="top">
-⚙ SOFTWARE
 
-Building applications that are:
+### Frameworks & Development
 
-Practical
-Scalable
-Maintainable
-Fast
-Actually useful
-</td> <td width="50%" valign="top">
-🎨 DESIGN
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase" />
+
+</div>
+
+### Cloud • Database • Systems
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux" />
+
+</div>
+
+### Design • Creative Technology
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+`C` • `C++` • `Java` • `Python` • `JavaScript` • `TypeScript` • `Dart`
+
+`React` • `Next.js` • `Node.js` • `Flask` • `Flutter` • `Tailwind`
+
+`AWS` • `Google Cloud` • `Azure` • `Docker` • `Firebase`
+
+`SQL` • `MySQL` • `PostgreSQL` • `MongoDB`
+
+`Figma` • `Photoshop` • `Illustrator` • `After Effects` • `Canva`
+
+</div>
+
+> **A stack is a toolbox — not a personality.**
+
+---
+
+## `03 / WHAT I BUILD`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙ SOFTWARE
+
+Building applications with an emphasis on:
+
+- Practical functionality
+- Clean architecture
+- Usability
+- Performance
+- Maintainability
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎨 DESIGN
 
 Designing experiences around:
 
-UI / UX
-Visual systems
-Interaction
-Prototyping
-Product aesthetics
-</td> </tr> <tr> <td width="50%" valign="top">
-☁ CLOUD
+- UI / UX
+- Visual systems
+- Prototyping
+- Interaction
+- Product aesthetics
 
-Working with:
+</td>
+</tr>
 
-Cloud platforms
-APIs
-Databases
-Deployment
-Application architecture
-</td> <td width="50%" valign="top">
-🤖 AI
+<tr>
+<td width="50%" valign="top">
+
+### ☁ CLOUD
 
 Exploring:
 
-AI applications
-Agents
-Automation
-Intelligent workflows
-Developer tooling
-</td> </tr> </table>
-04 / CURRENTLY EXPLORING
+- Cloud platforms
+- APIs
+- Databases
+- Deployment
+- Application architecture
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🤖 AI
+
+Exploring:
+
+- AI applications
+- Agents
+- Automation
+- Intelligent workflows
+- Developer tooling
+
+</td>
+</tr>
+</table>
+
+---
+
+## `04 / CURRENTLY EXPLORING`
+
 <div align="center">
 
-AI & AGENTS
+`AI & AGENTS`
 
-FULL-STACK DEVELOPMENT
+`FULL-STACK DEVELOPMENT`
 
-CLOUD ARCHITECTURE
+`CLOUD ARCHITECTURE`
 
-UI / UX SYSTEMS
+`UI / UX SYSTEMS`
 
-AUTOMATION
+`AUTOMATION`
 
-DATA VISUALIZATION
+`DATA VISUALIZATION`
 
-PRODUCT ENGINEERING
+`PRODUCT ENGINEERING`
 
-</div> <br>
-                         ┌─────────────┐
-                         │    IDEA     │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │   DESIGN    │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │  ENGINEER   │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │    BUILD    │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │    SHIP     │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │   LEARN     │
-                         └──────┬──────┘
-                                │
-                                └──────────────► REPEAT
-05 / SELECTED WORK
+</div>
+
+<br>
+
+<pre>
+                              ┌─────────────┐
+                              │    IDEA     │
+                              └──────┬──────┘
+                                     │
+                                     ▼
+                              ┌─────────────┐
+                              │   DESIGN    │
+                              └──────┬──────┘
+                                     │
+                                     ▼
+                              ┌─────────────┐
+                              │  ENGINEER   │
+                              └──────┬──────┘
+                                     │
+                                     ▼
+                              ┌─────────────┐
+                              │    BUILD    │
+                              └──────┬──────┘
+                                     │
+                                     ▼
+                              ┌─────────────┐
+                              │    SHIP     │
+                              └──────┬──────┘
+                                     │
+                                     ▼
+                              ┌─────────────┐
+                              │    LEARN    │
+                              └──────┬──────┘
+                                     │
+                                     └──────────────► REPEAT
+</pre>
+
+---
+
+## `05 / SELECTED WORK`
+
 <div align="center">
-PROJECT	DOMAIN	STATUS
-🎓 MCA Learning Platform	Education • Product • UI/UX	BUILDING
-🤖 AI / Agent Systems	AI • Automation • Engineering	EXPLORING
-☁️ Cloud Projects	AWS • GCP • APIs	BUILDING
-🎨 Creative Experiments	Design • Motion • Visuals	ONGOING
-</div> <br>
 
-Some projects are polished.
+| PROJECT | DOMAIN | STATUS |
+| :--- | :--- | :---: |
+| 🎓 **MCA Learning Platform** | Education • Product • UI/UX | `BUILDING` |
+| 🤖 **AI / Agent Systems** | AI • Automation • Engineering | `EXPLORING` |
+| ☁️ **Cloud Projects** | AWS • GCP • APIs | `BUILDING` |
+| 🎨 **Creative Experiments** | Design • Motion • Visuals | `ONGOING` |
 
-Some are experiments.
+</div>
 
-Some are held together by questionable engineering decisions and pure determination.
+> Some projects are polished.  
+> Some are experiments.  
+> Some are held together by questionable engineering decisions and pure determination.  
+>
+> **All of them teach something.**
 
-All of them teach something.
+---
 
-06 / GITHUB COMMAND CENTER
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=EnternalBlue07&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0B0F14&title_color=67E8F9&icon_color=67E8F9&text_color=C9D1D9" width="49%" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EnternalBlue07&layout=compact&langs_count=8&hide_border=true&bg_color=0B0F14&title_color=67E8F9&text_color=C9D1D9" width="49%" />
+## `06 / GITHUB COMMAND CENTER`
+
+<div align="center">
+
+<a href="https://github.com/EnternalBlue07">
+<img src="https://github-readme-stats.vercel.app/api?username=EnternalBlue07&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0B0F14&title_color=67E8F9&icon_color=67E8F9&text_color=C9D1D9" width="48%" />
+</a>
+
+<a href="https://github.com/EnternalBlue07">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EnternalBlue07&layout=compact&langs_count=8&hide_border=true&bg_color=0B0F14&title_color=67E8F9&text_color=C9D1D9" width="48%" />
+</a>
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=EnternalBlue07&hide_border=true&background=0B0F14&ring=67E8F9&fire=F59E0B&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF" width="70%" /> </div>
-07 / CONTRIBUTION ACTIVITY
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=EnternalBlue07&bg_color=0B0F14&color=67E8F9&line=67E8F9&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity" width="95%" /> </div>
-08 / GITHUB TROPHIES
-<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=EnternalBlue07&theme=onestar&no-frame=true&no-bg=true&margin-w=5&margin-h=5&row=1&column=6" width="95%" /> </div>
-09 / CONTRIBUTION SNAKE
-<div align="center"> <img src="https://raw.githubusercontent.com/EnternalBlue07/EnternalBlue07/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="95%" /> </div>
-10 / DEVELOPMENT PHILOSOPHY
+<img src="https://streak-stats.demolab.com?user=EnternalBlue07&hide_border=true&background=0B0F14&ring=67E8F9&fire=F59E0B&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF" width="70%" />
+
+</div>
+
+---
+
+## `07 / CONTRIBUTION ACTIVITY`
+
 <div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EnternalBlue07&bg_color=0B0F14&color=67E8F9&line=67E8F9&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity" width="95%" />
+
+</div>
+
+---
+
+## `08 / GITHUB TROPHIES`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=EnternalBlue07&theme=onestar&no-frame=true&no-bg=true&margin-w=5&margin-h=5&row=1&column=6" width="95%" />
+
+</div>
+
+---
+
+## `09 / CONTRIBUTION SNAKE`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/EnternalBlue07/EnternalBlue07/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="95%" />
+
+</div>
+
+---
+
+## `10 / DEVELOPMENT PHILOSOPHY`
+
+<div align="center">
+
+<pre>
 BUILD
   ↓
 BREAK
@@ -220,14 +338,72 @@ REBUILD
 SHIP
   ↓
 REPEAT
-GOOD SOFTWARE IS ENGINEERED.
-GREAT SOFTWARE IS EXPERIENCED.
+</pre>
+
+**GOOD SOFTWARE IS ENGINEERED.**
+
+**GREAT SOFTWARE IS EXPERIENCED.**
+
 </div>
-11 / RANDOM DEV THOUGHT
-<div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%" /> </div>
-12 / CONNECT
-<div align="center"> <a href="https://github.com/EnternalBlue07"> <img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-0B0F14?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://linkedin.com/in/zumaan-sayyed-4b0645284"> <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B0F14?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /> </a> <a href="https://instagram.com/zumaan_sayyed07"> <img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-0B0F14?style=for-the-badge&logo=instagram&logoColor=E4405F" /> </a> <a href="https://x.com/SayyedZumaan07"> <img src="https://img.shields.io/badge/X-FOLLOW-0B0F14?style=for-the-badge&logo=x&logoColor=white" /> </a> <a href="https://discord.gg/pdRysNm7"> <img src="https://img.shields.io/badge/DISCORD-JOIN-0B0F14?style=for-the-badge&logo=discord&logoColor=5865F2" /> </a> <a href="https://codepen.io/Zumaan-Sayyed"> <img src="https://img.shields.io/badge/CODEPEN-EXPERIMENTS-0B0F14?style=for-the-badge&logo=codepen&logoColor=white" /> </a> </div> <br> <div align="center">
-MAKE IT WORK.
-MAKE IT BEAUTIFUL.
-MAKE IT MATTER.
-<br> <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:020408,50:101820,100:05070A" width="100%" /> </div> ```
+
+---
+
+## `11 / RANDOM DEV THOUGHT`
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%" />
+
+</div>
+
+---
+
+## `12 / CONNECT`
+
+<div align="center">
+
+<a href="https://github.com/EnternalBlue07">
+<img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-0B0F14?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B0F14?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+
+<a href="https://instagram.com/zumaan_sayyed07">
+<img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-0B0F14?style=for-the-badge&logo=instagram&logoColor=E4405F" />
+</a>
+
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://img.shields.io/badge/X-FOLLOW-0B0F14?style=for-the-badge&logo=x&logoColor=white" />
+</a>
+
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://img.shields.io/badge/DISCORD-JOIN-0B0F14?style=for-the-badge&logo=discord&logoColor=5865F2" />
+</a>
+
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://img.shields.io/badge/CODEPEN-EXPERIMENTS-0B0F14?style=for-the-badge&logo=codepen&logoColor=white" />
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=EnternalBlue07&label=THANKS%20FOR%20STOPPING%20BY&style=flat-square&color=67E8F9&labelColor=0B0F14" />
+
+<br><br>
+
+**`MAKE IT WORK.`**
+
+**`MAKE IT BEAUTIFUL.`**
+
+**`MAKE IT MATTER.`**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:020408,50:101820,100:05070A" width="100%" />
+
+</div>
