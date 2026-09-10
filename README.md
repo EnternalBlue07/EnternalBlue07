@@ -1,38 +1,50 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=155&section=header&text=ZUMAAN%20SAYYED&fontSize=44&fontColor=F8FAFC&fontAlignY=40&desc=DEVELOPER%20%E2%80%A2%20DESIGNER%20%E2%80%A2%20BUILDER&descSize=13&descAlignY=64&color=0:020617,45:0B1220,75:111827,100:020617" width="100%"/>
+
 <br>
 
-<a href="https://github.com/EnternalBlue07">
-<img src="https://skillicons.dev/icons?i=github" width="52" alt="GitHub"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
-<img src="https://skillicons.dev/icons?i=linkedin" width="52" alt="LinkedIn"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://instagram.com/zumaan_sayyed07">
-<img src="https://skillicons.dev/icons?i=instagram" width="52" alt="Instagram"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://x.com/SayyedZumaan07">
-<img src="https://skillicons.dev/icons?i=x" width="52" alt="X"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://discord.gg/pdRysNm7">
-<img src="https://skillicons.dev/icons?i=discord" width="52" alt="Discord"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://codepen.io/Zumaan-Sayyed">
-<img src="https://skillicons.dev/icons?i=codepen" width="52" alt="CodePen"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=720&lines=Turning+ideas+into+working+systems.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Building+quietly.+Shipping+boldly.;Always+learning.+Always+building." alt="Typing SVG"/>
 
 <br><br>
 
-<sub>✦ FIND ME AROUND THE WEB ✦</sub>
+<a href="https://github.com/EnternalBlue07">
+<img src="https://skillicons.dev/icons?i=github" width="50" height="50" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://skillicons.dev/icons?i=linkedin" width="50" height="50" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/zumaan_sayyyed07">
+<img src="https://skillicons.dev/icons?i=instagram" width="50" height="50" alt="Instagram"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://cdn.simpleicons.org/x/FFFFFF" width="46" height="46" alt="X"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://skillicons.dev/icons?i=discord" width="50" height="50" alt="Discord"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://skillicons.dev/icons?i=codepen" width="50" height="50" alt="CodePen"/>
+</a>
 
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=EnternalBlue07&label=VISITORS&style=flat-square&color=67E8F9&labelColor=0B0F14"/>
+
+<br><br>
+
+<sub>✦ BUILDING DIGITAL SYSTEMS WITH CODE, DESIGN & CURIOSITY ✦</sub>
+
+<br><br>
+
+</div>
+
+---
 
 </div>
 
