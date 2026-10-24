@@ -277,12 +277,8 @@ SOFTWARE · AI · CLOUD · DESIGN · DATA · CREATIVE TECHNOLOGY
   <img src="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=dark" width="100%" alt="Zumaan Sayyed social profile card" />
 </picture>
 
-<br><br>
+<p align="center"><sub>✦ THANKS FOR VISITING ✦</sub></p>
 
-<sub>✦ THANKS FOR VISITING ✦</sub>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:020617,50:0B1117,100:020408" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=48&section=footer&color=0:020617,50:0B1117,100:020408" width="100%" alt="Profile footer"/>
 
 </div>
