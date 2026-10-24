@@ -52,71 +52,60 @@
 
 <div align="center">
 
-## `HELLO, I'M ZUMAAN`
+<img src="https://capsule-render.vercel.app/api?type=rect&height=42&text=ENGINEERING%20%2F%20WITH%20INTENT&fontSize=18&fontColor=67E8F9&fontAlignY=58&color=0:0B1117,50:111827,100:0B1117" width="100%" alt="Engineering with intent"/>
 
-### Developer • Designer • Builder
+### Developer · Designer · Builder
 
 **I build digital experiences where engineering meets design.**
 
-I like turning ideas into software, interfaces, intelligent systems and things that are actually useful.
+I turn ideas into useful software, thoughtful interfaces, and intelligent systems — then keep refining them until they work beautifully.
 
 <br>
 
-`BUILD` &nbsp; `DESIGN` &nbsp; `ENGINEER` &nbsp; `EXPERIMENT` &nbsp; `SHIP`
+<code>BUILD</code> &nbsp; <code>DESIGN</code> &nbsp; <code>ENGINEER</code> &nbsp; <code>EXPERIMENT</code> &nbsp; <code>SHIP</code>
 
-</div>
+<br><br>
 
-<br>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="72%"/>
-
-<br>
-
-<table>
+<table width="100%">
 <tr>
 <td align="center" width="25%">
 
-### `01`
+<sub>01 / BUILD</sub>
 
-**SOFTWARE**
+### SOFTWARE
 
 Applications  
 Systems  
 Architecture
 
 </td>
-
 <td align="center" width="25%">
 
-### `02`
+<sub>02 / SHAPE</sub>
 
-**DESIGN**
+### DESIGN
 
 UI / UX  
-Visual Systems  
+Visual systems  
 Experiences
 
 </td>
-
 <td align="center" width="25%">
 
-### `03`
+<sub>03 / EXPLORE</sub>
 
-**INTELLIGENCE**
+### INTELLIGENCE
 
 AI  
 Agents  
 Automation
 
 </td>
-
 <td align="center" width="25%">
 
-### `04`
+<sub>04 / SHIP</sub>
 
-**CLOUD**
+### CLOUD
 
 APIs  
 Infrastructure  
@@ -128,11 +117,9 @@ Deployment
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="72%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="100%" alt="Cyan divider"/>
 
 </div>
-
-<br>
 
 <div align="center">
 
