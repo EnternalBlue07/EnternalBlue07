@@ -5,6 +5,8 @@
   <img src="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Zumaan Sayyed ASCII wordmark" />
 </picture>
 
+<p align="center"><strong>SOFTWARE ENGINEER IN THE MAKING · AI BUILDER · SYSTEMS THINKER</strong></p>
+
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=760&lines=Turning+ideas+into+working+systems.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Building+quietly.+Shipping+boldly.;Always+learning.+Always+building." alt="Typing SVG"/>
