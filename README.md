@@ -265,7 +265,7 @@ SOFTWARE · AI · CLOUD · DESIGN · DATA · CREATIVE TECHNOLOGY
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=dark" width="100%" alt="Zumaan Sayyed animated chessboard" />
+  <img src="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=dark" width="420" alt="Zumaan Sayyed animated chessboard" />
 </picture>
 
 <p align="center"><sub>THE NEXT SCENE</sub></p>
