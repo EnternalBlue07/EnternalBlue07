@@ -11,7 +11,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=760&lines=Turning+ideas+into+working+systems.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Building+quietly.+Shipping+boldly.;Always+learning.+Always+building." alt="Typing SVG"/>
 
-<br><br>
+<br>
 
 <a href="https://github.com/EnternalBlue07">
 <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"/>
@@ -42,9 +42,9 @@
 <img src="https://skillicons.dev/icons?i=codepen" width="48" height="48" alt="CodePen"/>
 </a>
 
-<br><br>
+<br>
 
-<sub>✦ SOFTWARE · DESIGN · AI · CLOUD · CREATIVE TECHNOLOGY ✦</sub>
+<sub>✦ &nbsp; SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &amp; INFRASTRUCTURE &nbsp; ◆ &nbsp; PRODUCT DESIGN &nbsp; ✦</sub>
 
 </div>
 
@@ -72,7 +72,7 @@ I like turning ideas into software, interfaces, intelligent systems and things t
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="72%"/>
 
-<br><br>
+<br>
 
 <table>
 <tr>
@@ -173,7 +173,7 @@ Deployment
 
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,sql,md&perline=11"/>
 
-<br><br>
+<br>
 
 ### DEVELOPMENT
 
@@ -181,7 +181,7 @@ Deployment
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=10"/>
 
-<br><br>
+<br>
 
 ### CLOUD • DATABASE • SYSTEMS
 
@@ -189,7 +189,7 @@ Deployment
 
 <img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=7"/>
 
-<br><br>
+<br>
 
 ### DESIGN • CREATIVE
 
