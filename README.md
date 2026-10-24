@@ -123,35 +123,47 @@ Deployment
 
 <div align="center">
 
-## What teams can evaluate quickly
+<img src="https://capsule-render.vercel.app/api?type=rect&height=42&text=BUILDER%20PROFILE%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20AI&font=JetBrains%20Mono&fontSize=16&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="Builder profile — engineering and AI"/>
 
 <table width="100%">
 <tr>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="middle">
 
-### Role fit
+<sub>01 / ROLE</sub>
 
-Frontend or full-stack engineer · Python · TypeScript · JavaScript
+### SOFTWARE
 
-</td>
-<td width="33%" valign="top">
+Frontend · Full-stack
 
-### Public proof
-
-29 repositories · 1 star
+Python · TypeScript · JavaScript
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="middle">
 
-### Momentum
+<sub>02 / OPEN SOURCE</sub>
 
-105 contributions · 21 active days
+### 29 REPOS
+
+1 public star
+
+Building in public
+
+</td>
+<td width="33%" align="center" valign="middle">
+
+<sub>03 / ACTIVITY</sub>
+
+### 105 CONTRIBUTIONS
+
+21 active days
+
+Learn · Build · Ship
 
 </td>
 </tr>
 </table>
 
-<p><sub>Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work · Learning by building, breaking, and rebuilding.</sub></p>
+<p><sub>AI &amp; PROMPT ENGINEERING &nbsp; ◆ &nbsp; SYSTEMS THINKING &nbsp; ◆ &nbsp; BUILDING THROUGH EXPERIMENTATION</sub></p>
 
 </div>
 
@@ -159,53 +171,50 @@ Frontend or full-stack engineer · Python · TypeScript · JavaScript
 
 <div align="center">
 
-### LANGUAGES
+<img src="https://capsule-render.vercel.app/api?type=rect&height=38&text=THE%20TOOLKIT&font=JetBrains%20Mono&fontSize=16&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="The toolkit"/>
 
-<br>
+<table width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,md,sqlite&perline=11"/>
+### 01 — LANGUAGES
 
-<br>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart&perline=5" alt="Programming languages"/>
 
-### DEVELOPMENT
+<sub>C · C++ · Java · Python · JavaScript · TypeScript · HTML · CSS · Dart · SQL · Markdown</sub>
 
-<br>
+</td>
+<td width="50%" align="center" valign="top">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=10"/>
+### 02 — DEVELOPMENT
 
-<br>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=5" alt="Development tools"/>
 
-### CLOUD • DATABASE • SYSTEMS
+<sub>React · Next.js · Node.js · Flask · Flutter · Tailwind · Git · GitHub · Docker · Firebase</sub>
 
-<br>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
 
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=7"/>
+### 03 — CLOUD & DATA
 
-<br>
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=4" alt="Cloud and data tools"/>
 
-### DESIGN • CREATIVE
+<sub>AWS · Google Cloud · Azure · MySQL · PostgreSQL · MongoDB · Linux</sub>
 
-<br>
+</td>
+<td width="50%" align="center" valign="top">
 
-<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5"/>
+### 04 — DESIGN & CREATIVE
 
-</div>
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5" alt="Design and creative tools"/>
 
-<br>
+<sub>Figma · Photoshop · Illustrator · After Effects · Canva</sub>
 
-<div align="center">
-
-`C` · `C++` · `Java` · `Python` · `JavaScript` · `TypeScript`
-
-`HTML` · `CSS` · `Dart` · `SQL` · `Markdown`
-
-`React` · `Next.js` · `Node.js` · `Flask` · `Flutter` · `Tailwind`
-
-`AWS` · `Google Cloud` · `Azure` · `Docker` · `Firebase`
-
-`MySQL` · `PostgreSQL` · `MongoDB` · `Linux`
-
-`Figma` · `Photoshop` · `Illustrator` · `After Effects` · `Canva`
+</td>
+</tr>
+</table>
 
 </div>
 
