@@ -134,34 +134,39 @@ Deployment
 
 <br>
 
-<pre>
-┌──────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│   ZUMAAN SAYYED                                                          │
-│                                                                          │
-│   DEVELOPER        DESIGNER        BUILDER        PROBLEM SOLVER         │
-│                                                                          │
-│   SOFTWARE         AI              CLOUD          UI / UX                │
-│                                                                          │
-│   BUILD  →  BREAK  →  UNDERSTAND  →  REBUILD  →  SHIP                  │
-│                                                                          │
-│   STATUS   ● ONLINE                                                      │
-│   MODE     BUILDING                                                      │
-│                                                                          │
-└──────────────────────────────────────────────────────────────────────────┘
-</pre>
-
-<br>
-
 <div align="center">
 
-> **I don't just want things to work.**
->
-> **I want them to feel right.**
+## What teams can evaluate quickly
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+### Role fit
+
+Frontend or full-stack engineer · Python · TypeScript · JavaScript
+
+</td>
+<td width="33%" valign="top">
+
+### Public proof
+
+29 repositories · 1 star
+
+</td>
+<td width="33%" valign="top">
+
+### Momentum
+
+105 contributions · 21 active days
+
+</td>
+</tr>
+</table>
+
+<p><sub>Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work · Learning by building, breaking, and rebuilding.</sub></p>
 
 </div>
-
----
 
 ## `01 / TECHNOLOGY`
 
