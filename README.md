@@ -123,47 +123,35 @@ Deployment
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=42&text=BUILDER%20PROFILE%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20AI&font=JetBrains%20Mono&fontSize=16&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="Builder profile — engineering and AI"/>
+## What teams can evaluate quickly
 
 <table width="100%">
 <tr>
-<td width="33%" align="center" valign="middle">
+<td width="33%" valign="top">
 
-<sub>01 / ROLE</sub>
+### Role fit
 
-### SOFTWARE
-
-Frontend · Full-stack
-
-Python · TypeScript · JavaScript
+Software engineering · AI systems · Product design
 
 </td>
-<td width="33%" align="center" valign="middle">
+<td width="33%" valign="top">
 
-<sub>02 / OPEN SOURCE</sub>
+### Public proof
 
-### 29 REPOS
-
-1 public star
-
-Building in public
+29 repositories · 1 star
 
 </td>
-<td width="33%" align="center" valign="middle">
+<td width="33%" valign="top">
 
-<sub>03 / ACTIVITY</sub>
+### Momentum
 
-### 105 CONTRIBUTIONS
-
-21 active days
-
-Learn · Build · Ship
+105 contributions · 21 active days
 
 </td>
 </tr>
 </table>
 
-<p><sub>AI &amp; PROMPT ENGINEERING &nbsp; ◆ &nbsp; SYSTEMS THINKING &nbsp; ◆ &nbsp; BUILDING THROUGH EXPERIMENTATION</sub></p>
+<p><sub>Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work · Learning by building, breaking, and rebuilding.</sub></p>
 
 </div>
 
@@ -171,56 +159,57 @@ Learn · Build · Ship
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=38&text=THE%20TOOLKIT&font=JetBrains%20Mono&fontSize=16&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="The toolkit"/>
+### LANGUAGES
 
-<table width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
+<br>
 
-### 01 — LANGUAGES
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,md&perline=10"/>
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart&perline=5" alt="Programming languages"/>
+<br>
 
-<sub>C · C++ · Java · Python · JavaScript · TypeScript · HTML · CSS · Dart · SQL · Markdown</sub>
+### DEVELOPMENT
 
-</td>
-<td width="50%" align="center" valign="top">
+<br>
 
-### 02 — DEVELOPMENT
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=10"/>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=5" alt="Development tools"/>
+<br>
 
-<sub>React · Next.js · Node.js · Flask · Flutter · Tailwind · Git · GitHub · Docker · Firebase</sub>
+### CLOUD • DATABASE • SYSTEMS
 
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
+<br>
 
-### 03 — CLOUD & DATA
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=7"/>
 
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=4" alt="Cloud and data tools"/>
+<br>
 
-<sub>AWS · Google Cloud · Azure · MySQL · PostgreSQL · MongoDB · Linux</sub>
+### DESIGN • CREATIVE
 
-</td>
-<td width="50%" align="center" valign="top">
+<br>
 
-### 04 — DESIGN & CREATIVE
-
-<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5" alt="Design and creative tools"/>
-
-<sub>Figma · Photoshop · Illustrator · After Effects · Canva</sub>
-
-</td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5"/>
 
 </div>
 
 <br>
 
 <div align="center">
+
+`C` · `C++` · `Java` · `Python` · `JavaScript` · `TypeScript`
+
+`HTML` · `CSS` · `Dart` · `SQL` · `Markdown`
+
+`React` · `Next.js` · `Node.js` · `Flask` · `Flutter` · `Tailwind`
+
+`AWS` · `Google Cloud` · `Azure` · `Docker` · `Firebase`
+
+`MySQL` · `PostgreSQL` · `MongoDB` · `Linux`
+
+`Figma` · `Photoshop` · `Illustrator` · `After Effects` · `Canva`
+
+</div>
+
+<br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=CODE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20INTELLIGENCE%20%E2%80%A2%20SYSTEMS&fontSize=18&fontColor=E6F7FF&color=0:071116,50:10212B,100:071116&fontAlignY=55" width="94%"/>
 
