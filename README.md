@@ -272,7 +272,10 @@ SOFTWARE · AI · CLOUD · DESIGN · DATA · CREATIVE TECHNOLOGY
 
 ---
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="72%"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=light" />
+  <img src="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=dark" width="100%" alt="Zumaan Sayyed social profile card" />
+</picture>
 
 <br><br>
 
