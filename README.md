@@ -163,7 +163,7 @@ Frontend or full-stack engineer · Python · TypeScript · JavaScript
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,sql,md&perline=11"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,md,sqlite&perline=11"/>
 
 <br>
 
@@ -223,27 +223,15 @@ Frontend or full-stack engineer · Python · TypeScript · JavaScript
 
 <div align="center">
 
-**CURIOUS BY DEFAULT.**
-
-**CREATIVE BY NATURE.**
-
-**TECHNICAL BY CHOICE.**
+<img src="https://capsule-render.vercel.app/api?type=rect&height=48&text=CURIOUS%20BY%20DEFAULT%20%E2%9C%A6%20CREATIVE%20BY%20NATURE%20%E2%9C%A6%20TECHNICAL%20BY%20CHOICE&font=JetBrains%20Mono&fontSize=15&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="Curious by default, creative by nature, technical by choice"/>
 
 <br>
 
-I learn by building.
-
-I experiment by breaking things.
-
-I improve by rebuilding them better.
+**I learn by building.** &nbsp; **I experiment by breaking things.** &nbsp; **I improve by rebuilding them better.**
 
 <br>
 
-<sub>
-
-SOFTWARE · AI · CLOUD · DESIGN · DATA · CREATIVE TECHNOLOGY
-
-</sub>
+<sub>SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &nbsp; ◆ &nbsp; DESIGN &nbsp; ◆ &nbsp; CREATIVE TECHNOLOGY</sub>
 
 </div>
 
