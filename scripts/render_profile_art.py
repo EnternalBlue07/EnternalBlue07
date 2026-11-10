@@ -527,3 +527,136 @@ def activity(data: dict) -> None:
 """
     write("activity.svg", svg(W, height, body, ["serif", "serif-i", "sans", "mono"],
                                f'{total:,} contributions in the last year, {current}-day current streak.'))
+              f'{total:,} contributions in the last year, {current}-day current streak.'))
+
+
+# ---- Feature cards (three worlds) ----------------------------------------------
+TILE_W, TILE_H = W/3 - 8, 210
+FEATURES = [
+    (
+        "build", "BUILD", TECH, "#ffffff", "AI products",
+        "Agent platforms and data products built around real operational needs.",
+        "TALLY NEXUS  ·  DATAFORGE AI",
+    ),
+    (
+        "engineer", "ENGINEER", TEAL, "#ffffff", "Robotics",
+        "CAREMATE connects Flutter software to ESP32 hardware over BLE.",
+        "CAREMATE  ·  EMBEDDED + MOBILE",
+    ),
+    (
+        "learn", "TEACH", GOLD, INK, "AI education",
+        "Prompt engineering, AI tools, and useful workflows taught hands-on.",
+        "AI TOOLS  ·  PROMPT ENGINEERING",
+    ),
+]
+
+
+def feature_tile(name: str, label: str, colour: str, on: str, title: str,
+                 blurb: str, meta: str, index: int) -> None:
+    delay_s = 3.05 + index * .18
+    title_lines = wrap(title, 18)
+    blurb_lines = wrap(blurb, 38)[:2]
+    title_markup = text_lines(23, 105, title_lines, 30,
+                              f'font-family="{SERIF}" font-size="28" fill="{on}"')
+    blurb_markup = text_lines(23, 151, blurb_lines, 17,
+                              f'font-family="{SANS}" font-size="11.5" fill="{on}" opacity=".95"')
+    body = f"""
+<defs>
+  <clipPath id="tileClip"><rect width="{TILE_W:.3f}" height="{TILE_H}" rx="14"/></clipPath>
+  <linearGradient id="tileSheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<g class="ti" {delay(delay_s)}>
+  <g clip-path="url(#tileClip)">
+    <rect width="{TILE_W:.3f}" height="{TILE_H}" fill="{colour}"/>
+    <circle class="rg" {delay(delay_s+.45)} cx="{TILE_W-36:.1f}" cy="{TILE_H-30}" r="56" fill="none" stroke="{on}" stroke-opacity=".5" stroke-width="2"/>
+    <rect class="sh" style="animation-delay:{delay_s+1.2:.2f}s" x="-120" y="-20" width="88" height="{TILE_H+40}" fill="url(#tileSheen)" transform="translate(-260 0)"/>
+  </g>
+  <text class="sl" {delay(delay_s+.2)} x="23" y="34" font-family="{MONO}" font-size="10.5" letter-spacing="1.3" fill="{on}">{esc(label)}</text>
+  <g class="ai" {delay(delay_s+.36)}><path class="n" style="animation-delay:{delay_s+1.1:.2f}s" d="M{TILE_W-42:.1f} 28 H{TILE_W-24:.1f} M{TILE_W-31:.1f} 20 L{TILE_W-23:.1f} 28 L{TILE_W-31:.1f} 36" fill="none" stroke="{on}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g class="ro" {delay(delay_s+.3)}>{title_markup}</g>
+  <g class="r" {delay(delay_s+.72)}>{blurb_markup}</g>
+  <text class="f" {delay(delay_s+1.0)} x="23" y="198" font-family="{MONO}" font-size="9.3" letter-spacing=".2" fill="{on}" opacity=".82">{esc(meta)}</text>
+</g>
+"""
+    write(f"{name}.svg", svg(TILE_W, TILE_H, body, ["serif", "sans", "mono"],
+                              f"{label}: {title}. {blurb}", bottom=0))
+
+
+# ---- Project cards --------------------------------------------------------------
+PROJECTS = [
+    {
+        "repo": "Tally-Nexus",
+        "file": "repo-tally-nexus.svg",
+        "name": "TALLY NEXUS",
+        "desc": "A deterministic clearinghouse for AI-agent micro-IOUs: task evidence, SLA verdicts, signed obligations, netting, and PayPal settlement.",
+        "stack": "TypeScript  ·  Node.js  ·  SQLite  ·  PayPal",
+        "color": TECH,
+    },
+    {
+        "repo": "CAREMATE",
+        "file": "repo-caremate.svg",
+        "name": "CAREMATE",
+        "desc": "A home-care companion connecting a Flutter app to an ESP32 medication robot, with BLE state transitions and sensor-confirmed tablet drops.",
+        "stack": "Flutter  ·  Dart  ·  ESP32  ·  BLE",
+        "color": TEAL,
+    },
+    {
+        "repo": "SentinelAI",
+        "file": "repo-sentinelai.svg",
+        "name": "SENTINEL AI",
+        "desc": "Fraud and anomaly intelligence combining XGBoost, Isolation Forest, TreeSHAP explanations, and human-review case dossiers.",
+        "stack": "Python  ·  FastAPI  ·  Next.js  ·  XGBoost",
+        "color": GOLD,
+    },
+]
+
+
+def repo_meta(repo_name: str, fallback_stack: str) -> tuple[str, int]:
+    try:
+        response = requests.get(
+            f"https://api.github.com/repos/{LOGIN}/{repo_name}",
+            headers={"Accept": "application/vnd.github+json", "User-Agent": "profile-readme-art"},
+            timeout=15,
+        )
+        response.raise_for_status()
+        item = response.json()
+        language = item.get("language") or fallback_stack.split("·")[0].strip()
+        stars = int(item.get("stargazers_count", 0))
+        return language, stars
+    except Exception as exc:
+        print(f"Repo metadata unavailable for {repo_name}: {exc}")
+        return fallback_stack.split("·")[0].strip(), 0
+
+
+def repo_card(project: dict, index: int) -> None:
+    width, height = TILE_W, 178
+    language, stars = repo_meta(project["repo"], project["stack"])
+    meta = f"{project['stack']}  ·  ★ {stars}" if stars else project["stack"]
+    lines = wrap(project["desc"], 37)[:3]
+    delay_s = 4.35 + index * .15
+    body = f"""
+<defs>
+  <clipPath id="repoClip"><rect width="{width:.3f}" height="{height}" rx="14"/></clipPath>
+  <linearGradient id="repoSheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<g clip-path="url(#repoClip)">
+  <rect width="{width:.3f}" height="{height}" rx="14" fill="{PAPER}"/>
+  <rect class="sh" style="animation-delay:{delay_s+1.0:.2f}s" x="-120" y="-10" width="82" height="{height+20}" fill="url(#repoSheen)"/>
+</g>
+<g class="r" {delay(delay_s)}>
+  <rect x="23" y="29" width="8" height="8" rx="2" fill="{project['color']}"/>
+  <text x="39" y="39" font-family="{SANS}" font-weight="600" font-size="17.5" fill="{INK}">{esc(project["name"])}</text>
+  {text_lines(23, 70, lines, 19, f'font-family="{SANS}" font-size="12.5" fill="{INK_SOFT}"')}
+  <text x="23" y="{height-19}" font-family="{MONO}" font-size="9.2" fill="{MUTED}">{esc(meta)}</text>
+  <path class="n" style="animation-delay:{delay_s+1.3:.2f}s" d="M{width-34:.1f} 38 L{width-22:.1f} 26 M{width-31:.1f} 26 H{width-22:.1f} V35" fill="none" stroke="{project['color']}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+"""
+    write(project["file"], svg(width
