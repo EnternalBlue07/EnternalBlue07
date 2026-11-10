@@ -1,0 +1,43 @@
+name: Refresh profile engineering and activity cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 18 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render_profile_visuals.py"
+      - ".github/workflows/refresh-profile-visuals.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render cards from GitHub contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/render_profile_visuals.py
+
+      - name: Commit refreshed SVG cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards/engineering-intent.svg cards/contribution-activity.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh engineering and activity cards"
+            git push
+          else
+            echo "Cards are already up to date."
+          fi
