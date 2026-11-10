@@ -221,15 +221,11 @@ Software engineering · AI systems · Product design
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=48&text=CURIOUS%20BY%20DEFAULT%20%E2%9C%A6%20CREATIVE%20BY%20NATURE%20%E2%9C%A6%20TECHNICAL%20BY%20CHOICE&font=JetBrains%20Mono&fontSize=15&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="Curious by default, creative by nature, technical by choice"/>
+<img src="./cards/about-title.svg" width="100%" alt="What I'm about"/>
 
-<br>
+<br/>
 
-**I learn by building.** &nbsp; **I experiment by breaking things.** &nbsp; **I improve by rebuilding them better.**
-
-<br>
-
-<sub>SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &nbsp; ◆ &nbsp; DESIGN &nbsp; ◆ &nbsp; CREATIVE TECHNOLOGY</sub>
+<img src="./cards/about-curious.svg" width="32%" alt="Curious by default"/>&nbsp;<img src="./cards/about-creative.svg" width="32%" alt="Creative by nature"/>&nbsp;<img src="./cards/about-technical.svg" width="32%" alt="Technical by choice"/>
 
 </div>
 
