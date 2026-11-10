@@ -163,29 +163,7 @@ Deployment
 
 </div>
 
-<br>
 
-<div align="center">
-
-`C` · `C++` · `Java` · `Python` · `JavaScript` · `TypeScript`
-
-`HTML` · `CSS` · `Dart` · `SQL` · `Markdown`
-
-`React` · `Next.js` · `Node.js` · `Flask` · `Flutter` · `Tailwind`
-
-`AWS` · `Google Cloud` · `Azure` · `Docker` · `Firebase`
-
-`MySQL` · `PostgreSQL` · `MongoDB` · `Linux`
-
-`Figma` · `Photoshop` · `Illustrator` · `After Effects` · `Canva`
-
-</div>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=CODE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20INTELLIGENCE%20%E2%80%A2%20SYSTEMS&fontSize=18&fontColor=E6F7FF&color=0:071116,50:10212B,100:071116&fontAlignY=55" width="94%"/>
-
-</div>
 
 ---
 
