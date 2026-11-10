@@ -50,76 +50,18 @@
 
 ---
 
+## `00 / ENGINEERING`
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=42&text=ENGINEERING%20%2F%20WITH%20INTENT&fontSize=18&fontColor=67E8F9&fontAlignY=58&color=0:0B1117,50:111827,100:0B1117" width="100%" alt="Engineering with intent"/>
+<img src="./cards/engineering-intent.svg" width="100%" alt="Engineering with intent — software, design, intelligence, and cloud"/>
 
-### Developer · Designer · Builder
+<br/><br/>
 
-**I build digital experiences where engineering meets design.**
-
-I turn ideas into useful software, thoughtful interfaces, and intelligent systems — then keep refining them until they work beautifully.
-
-<br>
-
-<code>BUILD</code> &nbsp; <code>DESIGN</code> &nbsp; <code>ENGINEER</code> &nbsp; <code>EXPERIMENT</code> &nbsp; <code>SHIP</code>
-
-<br><br>
-
-<table width="100%">
-<tr>
-<td align="center" width="25%">
-
-<sub>01 / BUILD</sub>
-
-### SOFTWARE
-
-Applications  
-Systems  
-Architecture
-
-</td>
-<td align="center" width="25%">
-
-<sub>02 / SHAPE</sub>
-
-### DESIGN
-
-UI / UX  
-Visual systems  
-Experiences
-
-</td>
-<td align="center" width="25%">
-
-<sub>03 / EXPLORE</sub>
-
-### INTELLIGENCE
-
-AI  
-Agents  
-Automation
-
-</td>
-<td align="center" width="25%">
-
-<sub>04 / SHIP</sub>
-
-### CLOUD
-
-APIs  
-Infrastructure  
-Deployment
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="100%" alt="Cyan divider"/>
+<img src="./cards/contribution-activity.svg" width="100%" alt="GitHub contributions over the last 12 months, including monthly activity, current streak, active days, and busiest day"/>
 
 </div>
+
 
 <div align="center">
 
