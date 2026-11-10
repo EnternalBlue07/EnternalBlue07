@@ -406,3 +406,124 @@ def activity(data: dict) -> None:
 """
     write("activity.svg", svg(W, height, body, ["serif", "serif-i", "sans", "mono"],
                                f'{total:,} contributions in the last year, {current}-day current streak.'))
+ount = int(day["count"])
+        lvl = level_for(count)
+        delay_s = .85 + col * .026 + row * .022
+        cells.append(
+            f'<rect class="p" style="animation-delay:{delay_s:.3f}s" '
+            f'x="{gx + col*step}" y="{gy + row*step}" width="{cell}" height="{cell}" rx="3" '
+            f'fill="{BLUE[lvl]}"><title>{esc(day["date"])}: {count} contribution{"s" if count != 1 else ""}</title></rect>'
+        )
+
+    right = gx + ncols * step - 3
+    labels = "".join(
+        f'<text x="{gx + col*step}" y="{gy + 7*step + 17}" font-family="{MONO}" font-size="10.5" fill="{MUTED}">{label}</text>'
+        for col, label in months if col < ncols - 8
+    )
+    legend_x = right - len(BLUE) * 14
+    legend = "".join(
+        f'<rect x="{legend_x + index*14}" y="{gy + 7*step + 5}" width="11" height="11" rx="2.5" fill="{colour}"/>'
+        for index, colour in enumerate(BLUE)
+    )
+    h = gy + 7*step + 46
+    body = f"""
+<defs>
+  <clipPath id="heatClip"><rect width="{W}" height="{h}" rx="14"/></clipPath>
+  <linearGradient id="heatSheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".43"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
+<text class="r" {delay(.25)} x="42" y="54" font-family="{SERIF}" font-size="36" fill="{INK}">Every day, <tspan font-style="italic" fill="{TECH}">in blue</tspan></text>
+<text class="f" {delay(.35)} x="{W-42}" y="51" text-anchor="end" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}">REFRESHED DAILY</text>
+{''.join(cells)}
+<g class="f" {delay(2.5)}>
+  {labels}
+  <text x="{legend_x-8}" y="{gy + 7*step + 17}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{MUTED}">less</text>
+  {legend}
+  <text x="{legend_x + len(BLUE)*14 + 2}" y="{gy + 7*step + 17}" font-family="{MONO}" font-size="10.5" fill="{MUTED}">more</text>
+</g>
+<g clip-path="url(#heatClip)"><rect class="sh" x="-330" y="76" width="150" height="{h-76}" fill="url(#heatSheen)" opacity=".45"/></g>
+"""
+    write("heatmap.svg", svg(W, h, body, ["serif", "serif-i", "mono"],
+                              f'EnternalBlue07 contribution heatmap, {data["total_contributions"]:,} contributions in the last year.'))
+
+
+# ---- Monthly activity -----------------------------------------------------------
+def activity(data: dict) -> None:
+    height = 340
+    monthly = data["monthly"][-12:]
+    if not monthly:
+        raise RuntimeError("Contribution data has no monthly totals.")
+    current_month = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
+    best_pool = [m for m in monthly if m["month"] != current_month] or monthly
+    best = max(best_pool, key=lambda item: item["total"])
+    top = max(int(item["total"]) for item in monthly) or 1
+    x0, x1, base, maxh, gap = 40, 600, 286, 138, 10
+    bw = (x1 - x0 - gap * (len(monthly)-1)) / len(monthly)
+    bars = []
+    for index, month in enumerate(monthly):
+        partial = month["month"] == current_month
+        value = int(month["total"])
+        bar_h = max(3, round(value / top * maxh))
+        x = x0 + index * (bw + gap)
+        fill = TECH if month is best else ("#c8c8c3" if partial else INK)
+        label = dt.date.fromisoformat(month["month"] + "-01").strftime("%b")
+        start = 2.0 + index * .075
+        bars.append(
+            f'<rect class="g" style="animation-delay:{start:.2f}s" x="{x:.1f}" y="{base-bar_h}" '
+            f'width="{bw:.1f}" height="{bar_h}" rx="4" fill="{fill}">'
+            f'<title>{label}: {value:,} contributions</title></rect>'
+            f'<text class="f" style="animation-delay:{start:.2f}s" x="{x+bw/2:.1f}" y="{base+21}" '
+            f'text-anchor="middle" font-family="{MONO}" font-size="10.5" fill="{MUTED}">{label}</text>'
+        )
+        if month is best:
+            bars.append(
+                f'<text class="p" style="animation-delay:3.0s" x="{x+bw/2:.1f}" y="{base-bar_h-10}" '
+                f'text-anchor="middle" font-family="{MONO}" font-size="11" fill="{TECH}">{value:,}</text>'
+            )
+
+    current = int(data["current_streak"]["length"])
+    longest = int(data["longest_streak"]["length"])
+    active = int(data["active_days"])
+    total_days = len(data["days"])
+    best_day = data["best_day"]
+    streak_note = "current streak" if current < longest else "current streak · longest"
+    stats = [
+        (f'{current} <tspan font-style="italic">days</tspan>', streak_note),
+        (f'{active}<tspan fill="#94949a"> / {total_days}</tspan>', "days with a contribution"),
+        (f'{int(best_day["count"])}', f'on {dt.date.fromisoformat(best_day["date"]).strftime("%b %-d")}'),
+    ]
+    side = []
+    for index, (big, small) in enumerate(stats):
+        y = 104 + index * 87
+        side.append(
+            f'<g class="r" {delay(2.6 + index*.16)}>'
+            f'<text x="650" y="{y}" font-family="{SERIF}" font-size="39" fill="{INK}">{big}</text>'
+            f'<text x="650" y="{y+23}" font-family="{SANS}" font-size="12.5" fill="{MUTED}">{esc(small)}</text></g>'
+        )
+        if index < 2:
+            side.append(f'<rect class="f" {delay(2.65)} x="650" y="{y+43}" width="190" height="1" fill="{RULE}"/>')
+
+    total = int(data["total_contributions"])
+    body = f"""
+<defs>
+  <clipPath id="activityClip"><rect width="{W}" height="{height}" rx="14"/></clipPath>
+  <linearGradient id="activitySheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".48"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="{W}" height="{height}" rx="14" fill="{PAPER}"/>
+<text class="f" {delay(1.6)} x="40" y="51" font-family="{MONO}" font-size="11.5" letter-spacing="1.1" fill="{MUTED}">THE LAST 12 MONTHS ON GITHUB</text>
+{count_up(total, 38, 111, f'font-family="{SERIF}" font-size="51" fill="{INK}"', 1.7, ' <tspan font-style="italic">contributions</tspan>', 20, 1.25)}
+<text class="f" {delay(1.85)} x="40" y="140" font-family="{SANS}" font-size="12.5" fill="{MUTED}">A year of ideas, experiments, and shipped work.</text>
+{''.join(bars)}
+{''.join(side)}
+<g clip-path="url(#activityClip)"><rect class="sh" x="-330" y="4" width="145" height="{height-8}" fill="url(#activitySheen)" opacity=".25"/></g>
+"""
+    write("activity.svg", svg(W, height, body, ["serif", "serif-i", "sans", "mono"],
+                               f'{total:,} contributions in the last year, {current}-day current streak.'))
