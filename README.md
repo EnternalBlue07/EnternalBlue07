@@ -1,259 +1,267 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&height=170&text=ZUMAAN%20SAYYED&fontSize=54&fontColor=F8FAFC&fontAlignY=42&desc=AI%20SYSTEMS%20%E2%80%A2%20SOFTWARE%20ENGINEERING%20%E2%80%A2%20PRODUCT%20BUILDING&descSize=14&descAlignY=68&color=0:020617,48:0B1630,100:123C68" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=rect&height=170&text=ZUMAAN%20SAYYED&fontSize=54&fontColor=0B1220&fontAlignY=42&desc=AI%20SYSTEMS%20%E2%80%A2%20SOFTWARE%20ENGINEERING%20%E2%80%A2%20PRODUCT%20BUILDING&descSize=14&descAlignY=68&color=0:F8FAFC,50:EAF2FF,100:D7E9FF" />
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=170&text=ZUMAAN%20SAYYED&fontSize=54&fontColor=F8FAFC&fontAlignY=42&desc=AI%20SYSTEMS%20%E2%80%A2%20SOFTWARE%20ENGINEERING%20%E2%80%A2%20PRODUCT%20BUILDING&descSize=14&descAlignY=68&color=0:020617,48:0B1630,100:123C68" width="100%" alt="Zumaan Sayyed — AI systems, software engineering and product building" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Zumaan Sayyed ASCII wordmark" />
 </picture>
 
-<br/>
+<p align="center"><strong>SOFTWARE ENGINEER IN THE MAKING · AI BUILDER · SYSTEMS THINKER</strong></p>
 
-<a href="https://github.com/EnternalBlue07"><img src="https://img.shields.io/badge/GitHub-EnternalBlue07-111827?style=flat-square&logo=github" alt="GitHub"/></a>
-&nbsp;
-<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284"><img src="https://img.shields.io/badge/LinkedIn-Zumaan%20Sayyed-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
-&nbsp;
-<a href="mailto:crazyaistuffs@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=gmail" alt="Email"/></a>
+<br>
 
-<br/><br/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=760&lines=Turning+ideas+into+working+systems.;Engineering+meets+design.;Code+%2B+AI+%2B+Cloud.;Building+quietly.+Shipping+boldly.;Always+learning.+Always+building." alt="Typing SVG"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=780&lines=Building+AI+systems+with+engineering+discipline.;Agents+that+reason.+Systems+that+verify.;From+real-world+problems+to+working+software.;Design.+Build.+Test.+Ship.+Repeat." alt="Animated introduction"/>
+<br>
 
-<p><em>I turn ambitious ideas into useful software — combining AI, data, automation, and thoughtful product engineering.</em></p>
+<a href="https://github.com/EnternalBlue07">
+<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284">
+<img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://instagram.com/zumaan_sayyed07">
+<img src="https://skillicons.dev/icons?i=instagram" width="48" height="48" alt="Instagram"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://x.com/SayyedZumaan07">
+<img src="https://cdn.simpleicons.org/x/FFFFFF" width="44" height="44" alt="X"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://discord.gg/pdRysNm7">
+<img src="https://skillicons.dev/icons?i=discord" width="48" height="48" alt="Discord"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://codepen.io/Zumaan-Sayyed">
+<img src="https://skillicons.dev/icons?i=codepen" width="48" height="48" alt="CodePen"/>
+</a>
+
+<br>
+
+<sub>✦ &nbsp; SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &amp; INFRASTRUCTURE &nbsp; ◆ &nbsp; PRODUCT DESIGN &nbsp; ✦</sub>
 
 </div>
 
 ---
 
-## / THE BUILDER
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=42&text=ENGINEERING%20%2F%20WITH%20INTENT&fontSize=18&fontColor=67E8F9&fontAlignY=58&color=0:0B1117,50:111827,100:0B1117" width="100%" alt="Engineering with intent"/>
+
+### Developer · Designer · Builder
+
+**I build digital experiences where engineering meets design.**
+
+I turn ideas into useful software, thoughtful interfaces, and intelligent systems — then keep refining them until they work beautifully.
+
+<br>
+
+<code>BUILD</code> &nbsp; <code>DESIGN</code> &nbsp; <code>ENGINEER</code> &nbsp; <code>EXPERIMENT</code> &nbsp; <code>SHIP</code>
+
+<br><br>
 
 <table width="100%">
 <tr>
-<td width="58%" valign="top">
+<td align="center" width="25%">
 
-### Engineer by mindset. Builder by practice.
+<sub>01 / BUILD</sub>
 
-I’m a software and AI builder interested in the systems behind intelligent products: agent orchestration, data intelligence, automation, trustworthy workflows, and human-centred interfaces.
+### SOFTWARE
 
-I enjoy taking a problem from first principles, mapping its architecture, building the core mechanics, and stress-testing the details that make a prototype dependable.
-
-**Currently exploring:** multi-agent systems, applied machine learning, AI evaluation, backend architecture, and developer tooling.
+Applications  
+Systems  
+Architecture
 
 </td>
-<td width="42%" valign="top">
+<td align="center" width="25%">
 
-### BUILD PRINCIPLES
+<sub>02 / SHAPE</sub>
 
-| | |
-|:--|:--|
-| `01` | **Understand** the actual problem |
-| `02` | **Architect** before adding complexity |
-| `03` | **Automate** repetitive work |
-| `04` | **Verify** critical behaviour |
-| `05` | **Ship** something people can use |
+### DESIGN
+
+UI / UX  
+Visual systems  
+Experiences
+
+</td>
+<td align="center" width="25%">
+
+<sub>03 / EXPLORE</sub>
+
+### INTELLIGENCE
+
+AI  
+Agents  
+Automation
+
+</td>
+<td align="center" width="25%">
+
+<sub>04 / SHIP</sub>
+
+### CLOUD
+
+APIs  
+Infrastructure  
+Deployment
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## / WHAT I'M BUILDING
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/Tally-Nexus">TALLY NEXUS</a>
-**Autonomous Agent Clearinghouse**
-
-An agent-economy settlement engine that turns many small inter-agent obligations into minimal net settlements. AI evaluates task evidence; cryptography verifies signed obligations; deterministic mathematics performs clearing; payment rails execute settlement.
-
-- Multi-agent task exchange and SLA adjudication
-- Ed25519-signed micro-IOUs and immutable ledger
-- Multilateral netting, financial firewall, PayPal settlement
-
-<sub>TypeScript · Node.js · SQLite · PayPal APIs · Ed25519 · SSE · AG Grid</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/CAREMATE">CAREMATE</a>
-**Autonomous Healthcare Companion**
-
-A connected home-care companion combining a Flutter application with an ESP32-powered medication dispensing robot. The system distinguishes a dispense command from a sensor-confirmed tablet drop and patient acknowledgement.
-
-- BLE GATT communication and hardware state machine
-- Medication reminders, stock tracking, caregiver awareness
-- Sensor-confirmed dispensing and duplicate-command safeguards
-
-<sub>Flutter · Dart · ESP32 · BLE · Embedded C++ · Sensors · Servo Control</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/DATAFORGE-AI">DATAFORGE AI</a>
-**Career-Readiness & Technical Evaluation**
-
-A technical assessment workstation built around realistic business investigations: query datasets, diagnose metric anomalies, identify root causes, and communicate decisions through an AI-evaluated briefing.
-
-- Sandboxed SQL investigation with DuckDB / SQLite
-- Six-dimension AI reasoning evaluation
-- Adaptive skill graph and interview simulation
-
-<sub>Python · FastAPI · Next.js · DuckDB · PostgreSQL · Redis · pgvector</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/SentinelAI">SENTINEL AI</a>
-**Fraud & Anomaly Intelligence**
-
-A risk-intelligence platform that keeps supervised fraud probability separate from unsupervised anomaly signals, with explainability and human review built into the workflow.
-
-- XGBoost fraud modelling + Isolation Forest anomaly detection
-- TreeSHAP feature attribution and forensic case dossiers
-- PII redaction and traceable event records
-
-<sub>Python · FastAPI · Next.js · TypeScript · XGBoost · Isolation Forest · TreeSHAP · PostgreSQL</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/Pact_Resources">PACT</a>
-**Proof, Authorization, Custody & Trust**
-
-A resource-custody platform concept for shared campus equipment and spaces. It focuses on eligibility, accountable handovers, fair allocation, and tamper-evident history.
-
-- Eligibility gates and booking lifecycle
-- Dual-acknowledgement handover design
-- SHA-256 trust ledger and security test scenarios
-
-<sub>React · TypeScript · FastAPI · Python · PostgreSQL · SQLAlchemy · Pytest</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/EnternalBlue07/CORTEX-OS">CORTEX OS</a>
-**Enterprise Intelligence OS**
-
-An exploration of an intelligent workspace that brings operational context, AI-assisted workflows, and structured decision-making into one coherent product experience.
-
-<sub>Product Architecture · AI Workflows · Software Design</sub>
-
-</td>
-</tr>
-</table>
-
-<p align="right"><sub>More experiments and builds → <a href="https://github.com/EnternalBlue07?tab=repositories">all repositories</a></sub></p>
-
----
-
-## / EVERY DAY, IN BLUE
-
-<div align="center">
-
-<img src="./cards/heatmap.svg" width="100%" alt="Daily GitHub contribution heatmap, refreshed daily"/>
-
-<br/>
-
-<img src="./cards/activity.svg" width="100%" alt="Monthly contributions, streak and busiest contribution day"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=67E8F9" width="100%" alt="Cyan divider"/>
 
 </div>
 
-<br/>
-
-<div align="center">
-<a href="https://github.com/EnternalBlue07/Tally-Nexus"><img src="./cards/build.svg" width="32%" alt="Build: systems that work"/></a><a href="https://github.com/EnternalBlue07/DATAFORGE-AI"><img src="./cards/explore.svg" width="32%" alt="Explore: intelligence with guardrails"/></a><a href="https://github.com/EnternalBlue07/CAREMATE"><img src="./cards/teach.svg" width="32%" alt="Teach: make AI practical"/></a>
-</div>
-
-## / WHAT I'M CODING
-
-<div align="center">
-<a href="https://github.com/EnternalBlue07/Tally-Nexus"><img src="./cards/tally-nexus.svg" width="32%" alt="Tally Nexus repository card"/></a><a href="https://github.com/EnternalBlue07/CAREMATE"><img src="./cards/caremate.svg" width="32%" alt="CAREMATE repository card"/></a><a href="https://github.com/EnternalBlue07/DATAFORGE-AI"><img src="./cards/dataforge.svg" width="32%" alt="DATAFORGE AI repository card"/></a>
-</div>
-
-<p align="right"><sub>Cards are generated from GitHub's contribution calendar and public repository metadata by GitHub Actions, once a day.</sub></p>
-
----
-
-## / TECHNOLOGY TOOLKIT
-
 <div align="center">
 
-**LANGUAGES & DATA**
-
-<img src="https://skillicons.dev/icons?i=python,ts,js,java,dart,cpp,html,css,sql&perline=9" alt="Programming languages"/>
-
-<br/><br/>
-
-**APPLICATION & BACKEND ENGINEERING**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,flask,flutter,tailwind,docker,git&perline=9" alt="Application and backend stack"/>
-
-<br/><br/>
-
-**DATA, INFRASTRUCTURE & CREATIVE TOOLS**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,linux,aws,figma&perline=7" alt="Data infrastructure and creative tools"/>
-
-<br/><br/>
-
-**AI ENGINEERING WORKFLOW**
-
-<code>OpenAI API</code> &nbsp; <code>Codex</code> &nbsp; <code>OpenRouter</code> &nbsp; <code>LiteLLM</code> &nbsp; <code>Langflow</code> &nbsp; <code>Agent Workflows</code> &nbsp; <code>Prompt Evaluation</code>
-
-</div>
-
----
-
-## / HOW I WORK
+## What teams can evaluate quickly
 
 <table width="100%">
 <tr>
 <td width="33%" valign="top">
 
-### THINK
+### Role fit
 
-Problem framing, requirements, research, architecture, and trade-off analysis.
-
-</td>
-<td width="33%" valign="top">
-
-### BUILD
-
-Full-stack implementation, AI-assisted development, integration, and interface design.
+Software engineering · AI systems · Product design
 
 </td>
 <td width="33%" valign="top">
 
-### VERIFY
+### Public proof
 
-Automated tests, static analysis, security checks, deterministic behaviour, and iteration.
+29 repositories · 1 star
+
+</td>
+<td width="33%" valign="top">
+
+### Momentum
+
+105 contributions · 21 active days
 
 </td>
 </tr>
 </table>
 
+<p><sub>Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work · Learning by building, breaking, and rebuilding.</sub></p>
+
+</div>
+
+## `01 / TECHNOLOGY`
+
+<div align="center">
+
+### LANGUAGES
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript,typescript,html,css,dart,md&perline=10"/>
+
+<br>
+
+### DEVELOPMENT
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,flutter,tailwind,git,github,docker,firebase&perline=10"/>
+
+<br>
+
+### CLOUD • DATABASE • SYSTEMS
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,mysql,postgres,mongodb,linux&perline=7"/>
+
+<br>
+
+### DESIGN • CREATIVE
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,aftereffects,canva&perline=5"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+`C` · `C++` · `Java` · `Python` · `JavaScript` · `TypeScript`
+
+`HTML` · `CSS` · `Dart` · `SQL` · `Markdown`
+
+`React` · `Next.js` · `Node.js` · `Flask` · `Flutter` · `Tailwind`
+
+`AWS` · `Google Cloud` · `Azure` · `Docker` · `Firebase`
+
+`MySQL` · `PostgreSQL` · `MongoDB` · `Linux`
+
+`Figma` · `Photoshop` · `Illustrator` · `After Effects` · `Canva`
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=90&text=CODE%20%E2%80%A2%20DESIGN%20%E2%80%A2%20INTELLIGENCE%20%E2%80%A2%20SYSTEMS&fontSize=18&fontColor=E6F7FF&color=0:071116,50:10212B,100:071116&fontAlignY=55" width="94%"/>
+
+</div>
+
+---
+
+## `02 / A FEW WORDS`
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=48&text=CURIOUS%20BY%20DEFAULT%20%E2%9C%A6%20CREATIVE%20BY%20NATURE%20%E2%9C%A6%20TECHNICAL%20BY%20CHOICE&font=JetBrains%20Mono&fontSize=15&fontColor=67E8F9&color=0:0B1117,50:10212B,100:0B1117" width="100%" alt="Curious by default, creative by nature, technical by choice"/>
+
+<br>
+
+**I learn by building.** &nbsp; **I experiment by breaking things.** &nbsp; **I improve by rebuilding them better.**
+
+<br>
+
+<sub>SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &nbsp; ◆ &nbsp; DESIGN &nbsp; ◆ &nbsp; CREATIVE TECHNOLOGY</sub>
+
+</div>
+
 ---
 
 <div align="center">
 
-### LET'S BUILD SOMETHING THAT MATTERS.
+## Contribution trail
 
-Open to thoughtful conversations, engineering collaborations, and ambitious ideas.
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&style=snake&v=cinematic-snake-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark" width="100%" alt="Zumaan Sayyed contribution snake animation" />
+</picture>
 
-<a href="mailto:crazyaistuffs@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-&nbsp;
-<a href="https://linkedin.com/in/zumaan-sayyed-4b0645284"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+## Play the next move
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=dark" width="420" alt="Zumaan Sayyed animated chessboard" />
+</picture>
 
-<sub>Designed with intent · Built with curiosity · Improved with every commit</sub>
+<p align="center"><sub>THE NEXT SCENE</sub></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:123C68,50:0B1630,100:020617" width="100%" alt="Footer"/>
+---
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=light" />
+  <img src="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=dark" width="100%" alt="Zumaan Sayyed social profile card" />
+</picture>
+
+<p align="center"><sub>✦ THANKS FOR VISITING ✦</sub></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=48&section=footer&color=0:020617,50:0B1117,100:020408" width="100%" alt="Profile footer"/>
 
 </div>
