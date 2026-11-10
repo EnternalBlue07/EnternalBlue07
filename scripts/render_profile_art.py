@@ -814,3 +814,105 @@ def about_title() -> None:
         f'What I&#39;m <tspan font-style="italic">about</tspan></text>'
     )
     write("about-title.svg", svg(W, 56, body, ["serif", "serif-i"], "What I'm about", bottom=0))
+"{x+20}" y="124" font-family="{MONO}" font-size="8.8" letter-spacing=".65" fill="{card["ink"]}" opacity=".82">{esc(card["small"])}</text>
+  <text class="ro" {delay(dly+.42)} x="{x+20}" y="157" font-family="{SERIF}" font-size="{value_size}" fill="{card["ink"]}">{esc(card["value"])}</text>
+  {detail_markup}
+</g>
+""")
+    body = f"""
+<defs><linearGradient id="proofSheen" x1="0" x2="1">
+  <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#ffffff" stop-opacity=".34"/>
+  <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient></defs>
+<rect width="{W}" height="248" rx="14" fill="{DARK}"/>
+<text class="r" {delay(.12)} x="{W/2}" y="42" text-anchor="middle" font-family="{SANS}" font-size="22" font-weight="600" fill="#e6edf3">What teams can evaluate quickly</text>
+<line x1="28" y1="55" x2="852" y2="55" stroke="#30363d"/>
+{''.join(items)}
+<text class="f" {delay(1.2)} x="{W/2}" y="231" text-anchor="middle" font-family="{MONO}" font-size="10.2" fill="#9aa4b2">TECH EXPLORER · AI &amp; PROMPT ENGINEERING · LEARNING BY BUILDING</text>
+"""
+    write("team-evaluation.svg", svg(W, 248, body, ["serif", "sans", "sans-b", "mono"],
+                                        f"Role fit, {repo_count} public repositories, {stars} public stars, {contributions:,} contributions and {active} active days."))
+
+
+# ---- About section title and three cards ----------------------------------------
+def about_title() -> None:
+    body = (
+        f'<text class="r" {delay(.12)} x="2" y="45" font-family="{SERIF}" font-size="35" fill="#e6edf3">'
+        f'What I&#39;m <tspan font-style="italic">about</tspan></text>'
+    )
+    write("about-title.svg", svg(W, 56, body, ["serif", "serif-i"], "What I'm about", bottom=0))
+
+
+def about_card(filename: str, label: str, colour: str, title: str,
+               description: str, footer: str, index: int) -> None:
+    width, height = TILE_W, 206
+    dly = .25 + index*.16
+    lines = wrap(description, 34)[:3]
+    desc = text_lines(22, 112, lines, 20,
+                      f'font-family="{SANS}" font-size="12.5" fill="{INK_SOFT}"')
+    body = f"""
+<defs>
+  <clipPath id="aboutClip"><rect width="{width:.3f}" height="{height}" rx="14"/></clipPath>
+  <linearGradient id="aboutSheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<g class="ti" {delay(dly)}>
+  <g clip-path="url(#aboutClip)">
+    <rect width="{width:.3f}" height="{height}" rx="14" fill="{PAPER}"/>
+    <rect class="sh" style="animation-delay:{dly+1.0:.2f}s" x="-120" y="-10" width="82" height="{height+20}" fill="url(#aboutSheen)"/>
+  </g>
+  <rect class="live" x="22" y="31" width="9" height="9" rx="3" fill="{colour}"/>
+  <text class="sl" {delay(dly+.15)} x="43" y="41" font-family="{SANS}" font-size="16.5" font-weight="600" fill="{INK}">{esc(title)}</text>
+  {desc}
+  <text class="f" {delay(dly+.6)} x="22" y="180" font-family="{MONO}" font-size="10.2" fill="{MUTED}">{esc(footer)}</text>
+</g>
+"""
+    write(filename, svg(width, height, body, ["sans", "sans-b", "mono"], f"{label}: {description}", bottom=0))
+
+
+# ---- Run all renderers ----------------------------------------------------------
+def main() -> None:
+    if not CONTRIB_PATH.exists():
+        raise SystemExit(f"Missing {CONTRIB_PATH}; run scripts/fetch_profile_contributions.py first.")
+    data = json.loads(CONTRIB_PATH.read_text(encoding="utf-8"))
+    if data.get("username", "").lower() != LOGIN.lower():
+        raise SystemExit("Contribution data username does not match this profile; refusing to render foreign stats.")
+
+    hero()
+    heatmap(data)
+    activity(data)
+
+    feature_tile(*FEATURES[0], 0)
+    feature_tile(*FEATURES[1], 1)
+    feature_tile(*FEATURES[2], 2)
+
+    section_title("What I'm", "coding", "dark")
+    section_title("What I'm", "coding", "light")
+    for index, project in enumerate(PROJECTS):
+        repo_card(project, index)
+
+    engineering_intent()
+    team_evaluation(data)
+    about_title()
+    about_card("about-curious.svg", "Curious Builder", TECH, "Curious Builder",
+               "I learn by building real projects, experimenting with ideas, and solving problems through technology.",
+               "BUILD  ·  EXPERIMENT  ·  LEARN", 0)
+    about_card("about-creative.svg", "AI & Systems Enthusiast", TEAL, "AI & Systems Enthusiast",
+               "I'm passionate about AI, automation, and building intelligent systems that solve real-world problems.",
+               "AI  ·  AGENTS  ·  AUTOMATION", 1)
+    about_card("about-technical.svg", "Design & Technology", GOLD, "Design & Technology",
+               "I enjoy turning complex ideas into clean, useful, and thoughtful digital experiences.",
+               "PRODUCT  ·  UI/UX  ·  ENGINEERING", 2)
+
+    print(
+        f"Rendered profile art for {LOGIN}: {int(data['total_contributions']):,} contributions, "
+        f"{int(data['active_days'])} active days, {int(data['current_streak']['length'])}-day streak."
+    )
+
+
+if __name__ == "__main__":
+    main()
