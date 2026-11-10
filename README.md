@@ -152,26 +152,31 @@ An exploration of an intelligent workspace that brings operational context, AI-a
 
 ---
 
-## / BUILD ACTIVITY
+## / EVERY DAY, IN BLUE
 
 <div align="center">
 
-<a href="https://github.com/EnternalBlue07?tab=repositories">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=EnternalBlue07&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=60A5FA&rank_icon=github" alt="GitHub overview stats" />
-</a>
-<a href="https://github.com/EnternalBlue07?tab=repositories">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EnternalBlue07&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Most used languages" />
-</a>
+<img src="./cards/heatmap.svg" width="100%" alt="Daily GitHub contribution heatmap, refreshed daily"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://streak-stats.demolab.com?user=EnternalBlue07&hide_border=true&background=0D1117&ring=38BDF8&fire=60A5FA&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" width="78%" alt="GitHub contribution streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EnternalBlue07&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=60A5FA&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+<img src="./cards/activity.svg" width="100%" alt="Monthly contributions, streak and busiest contribution day"/>
 
 </div>
+
+<br/>
+
+<div align="center">
+<a href="https://github.com/EnternalBlue07/Tally-Nexus"><img src="./cards/build.svg" width="32%" alt="Build: systems that work"/></a><a href="https://github.com/EnternalBlue07/DATAFORGE-AI"><img src="./cards/explore.svg" width="32%" alt="Explore: intelligence with guardrails"/></a><a href="https://github.com/EnternalBlue07/CAREMATE"><img src="./cards/teach.svg" width="32%" alt="Teach: make AI practical"/></a>
+</div>
+
+## / WHAT I'M CODING
+
+<div align="center">
+<a href="https://github.com/EnternalBlue07/Tally-Nexus"><img src="./cards/tally-nexus.svg" width="32%" alt="Tally Nexus repository card"/></a><a href="https://github.com/EnternalBlue07/CAREMATE"><img src="./cards/caremate.svg" width="32%" alt="CAREMATE repository card"/></a><a href="https://github.com/EnternalBlue07/DATAFORGE-AI"><img src="./cards/dataforge.svg" width="32%" alt="DATAFORGE AI repository card"/></a>
+</div>
+
+<p align="right"><sub>Cards are generated from GitHub's contribution calendar and public repository metadata by GitHub Actions, once a day.</sub></p>
 
 ---
 
