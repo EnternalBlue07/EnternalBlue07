@@ -1,6 +1,12 @@
 name: Refresh profile cards
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'scripts/render_profile_cards.py'
+      - '.github/workflows/refresh-profile-cards.yml'
   workflow_dispatch:
   schedule:
     - cron: "17 18 * * *"
