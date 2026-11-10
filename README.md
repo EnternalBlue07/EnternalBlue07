@@ -123,35 +123,7 @@ Deployment
 
 <div align="center">
 
-## What teams can evaluate quickly
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
-
-### Role fit
-
-Software engineering · AI systems · Product design
-
-</td>
-<td width="33%" valign="top">
-
-### Public proof
-
-29 repositories · 1 star
-
-</td>
-<td width="33%" valign="top">
-
-### Momentum
-
-105 contributions · 21 active days
-
-</td>
-</tr>
-</table>
-
-<p><sub>Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work · Learning by building, breaking, and rebuilding.</sub></p>
+<img src="./cards/team-evaluation.svg" width="100%" alt="What teams can evaluate quickly — role fit, public proof, and momentum"/>
 
 </div>
 
