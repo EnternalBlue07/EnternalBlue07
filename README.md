@@ -1,46 +1,26 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Zumaan Sayyed wordmark" />
-</picture>
+<img src="./cards/hero-main.svg" width="100%" alt="Code + AI + Cloud — software engineer in the making, AI builder and systems thinker"/>
 
 <br/>
 
-<img src="./cards/hero-identity.svg" width="100%" alt="Software engineer in the making · AI builder · Systems thinker"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=900&color=67E8F9&center=true&vCenter=true&width=780&height=44&lines=Code+%2B+AI+%2B+Cloud.;Engineering+meets+design.;Turning+ideas+into+working+systems.;Building+with+intent.+Shipping+with+care." alt="Animated builder statement"/>
-
-<br/>
-
-<table width="76%" align="center">
-<tr>
-<td align="center" width="16.66%">
+<p align="center">
 <a href="https://github.com/EnternalBlue07"><img src="https://skillicons.dev/icons?i=github" width="44" height="44" alt="GitHub"/></a>
-</td>
-<td align="center" width="16.66%">
+&nbsp;&nbsp;&nbsp;
 <a href="https://linkedin.com/in/zumaan-sayyed-4b0645284"><img src="https://skillicons.dev/icons?i=linkedin" width="44" height="44" alt="LinkedIn"/></a>
-</td>
-<td align="center" width="16.66%">
+&nbsp;&nbsp;&nbsp;
 <a href="https://instagram.com/zumaan_sayyed07"><img src="https://skillicons.dev/icons?i=instagram" width="44" height="44" alt="Instagram"/></a>
-</td>
-<td align="center" width="16.66%">
+&nbsp;&nbsp;&nbsp;
 <a href="https://x.com/SayyedZumaan07"><img src="https://cdn.simpleicons.org/x/FFFFFF" width="40" height="40" alt="X"/></a>
-</td>
-<td align="center" width="16.66%">
+&nbsp;&nbsp;&nbsp;
 <a href="https://discord.gg/pdRysNm7"><img src="https://skillicons.dev/icons?i=discord" width="44" height="44" alt="Discord"/></a>
-</td>
-<td align="center" width="16.66%">
+&nbsp;&nbsp;&nbsp;
 <a href="https://codepen.io/Zumaan-Sayyed"><img src="https://skillicons.dev/icons?i=codepen" width="44" height="44" alt="CodePen"/></a>
-</td>
-</tr>
-</table>
+</p>
 
 <br/>
 
-<img src="./cards/hero-focus.svg" width="100%" alt="Software engineering · AI systems · Cloud and infrastructure · Product design"/>
+<sub>✦ &nbsp; SOFTWARE ENGINEERING &nbsp; ◆ &nbsp; AI SYSTEMS &nbsp; ◆ &nbsp; CLOUD &amp; INFRASTRUCTURE &nbsp; ◆ &nbsp; PRODUCT DESIGN &nbsp; ✦</sub>
 
 </div>
 ---
