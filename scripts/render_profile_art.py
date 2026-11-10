@@ -660,3 +660,157 @@ def repo_card(project: dict, index: int) -> None:
 </g>
 """
     write(project["file"], svg(width
+, height, body, ["sans", "sans-b", "mono"],
+                                f'{project["name"]}: {project["desc"]}', bottom=0))
+
+
+def section_title(text: str, italic: str, theme: str) -> None:
+    foreground = "#e6edf3" if theme == "dark" else INK
+    body = (
+        f'<text class="r" {delay(4.1)} x="2" y="47" font-family="{SERIF}" font-size="35" fill="{foreground}">'
+        f'{esc(text)} <tspan font-style="italic">{esc(italic)}</tspan></text>'
+    )
+    write(f"title-coding-{theme}.svg", svg(W, 62, body, ["serif", "serif-i"],
+                                          f"{text} {italic}", bottom=0))
+
+
+# ---- Engineering / with intent -------------------------------------------------
+def engineering_intent() -> None:
+    card_w, card_h = 188, 205
+    x_positions = [34, 242, 450, 658]
+    cards = [
+        ("01 / BUILD", "SOFTWARE", ["Applications", "Systems", "Architecture"], TECH, "#ffffff"),
+        ("02 / SHAPE", "DESIGN", ["UI / UX", "Visual systems", "Experiences"], TEAL, "#ffffff"),
+        ("03 / EXPLORE", "INTELLIGENCE", ["AI", "Agents", "Automation"], GOLD, INK),
+        ("04 / SHIP", "CLOUD", ["APIs", "Infrastructure", "Deployment"], "#34465f", "#ffffff"),
+    ]
+    blocks = []
+    for index, (label, title, items, colour, foreground) in enumerate(cards):
+        x = x_positions[index]
+        delay_s = .45 + index * .16
+        lines = text_lines(x+22, 230, items, 22, f'font-family="{SANS}" font-size="13.5" fill="{foreground}"')
+        blocks.append(f"""
+<g class="ti" {delay(delay_s)}>
+  <g clip-path="url(#eng{index})">
+    <rect x="{x}" y="116" width="{card_w}" height="{card_h}" rx="14" fill="{colour}"/>
+    <circle class="rg" {delay(delay_s+.38)} cx="{x+card_w-28}" cy="292" r="46" fill="none" stroke="{foreground}" stroke-opacity=".5" stroke-width="2"/>
+    <rect class="sh" style="animation-delay:{delay_s+1.2:.2f}s" x="{x-100}" y="104" width="75" height="{card_h+24}" fill="url(#engSheen)"/>
+  </g>
+  <text class="sl" {delay(delay_s+.2)} x="{x+22}" y="145" font-family="{MONO}" font-size="10" letter-spacing=".8" fill="{foreground}">{label}</text>
+  <text class="ro" {delay(delay_s+.32)} x="{x+22}" y="194" font-family="{SERIF}" font-size="21" fill="{foreground}">{title}</text>
+  {lines}
+</g>
+""")
+    defs = "".join(
+        f'<clipPath id="eng{index}"><rect x="{x_positions[index]}" y="116" width="{card_w}" height="{card_h}" rx="14"/></clipPath>'
+        for index in range(4)
+    )
+    body = f"""
+<defs>
+  {defs}
+  <linearGradient id="engSheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".34"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="engRule" x1="0" x2="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="{W}" height="354" rx="14" fill="{DARK}"/>
+<text class="r" {delay(.1)} x="36" y="65" font-family="{SERIF}" font-size="45" fill="#e6edf3">Engineering <tspan font-style="italic" fill="#67e8f9">/ with intent</tspan></text>
+<line x1="36" y1="88" x2="844" y2="88" stroke="#30363d"/>
+{''.join(blocks)}
+<rect class="live" x="36" y="338" width="808" height="2.5" rx="1.2" fill="url(#engRule)"/>
+"""
+    write("engineering-intent.svg", svg(W, 354, body, ["serif", "serif-i", "sans", "mono"],
+                                        "Engineering with intent: software, design, intelligence, and cloud."))
+
+
+# ---- Team evaluation snapshot --------------------------------------------------
+def repo_totals() -> tuple[int | None, int | None]:
+    try:
+        response = requests.get(
+            f"https://api.github.com/users/{LOGIN}/repos?per_page=100&type=owner&sort=updated",
+            headers={"Accept": "application/vnd.github+json", "User-Agent": "profile-readme-art"},
+            timeout=20,
+        )
+        response.raise_for_status()
+        repos = [item for item in response.json() if not item.get("private", False)]
+        return len(repos), sum(int(item.get("stargazers_count", 0)) for item in repos)
+    except Exception as exc:
+        print(f"Public repository summary unavailable: {exc}")
+        return None, None
+
+
+def team_evaluation(data: dict) -> None:
+    repo_count, stars = repo_totals()
+    public_value = f"{repo_count} repositories · {stars} stars" if repo_count is not None else "Explore public work"
+    public_detail = "Featured builds linked below" if repo_count is not None else "Live repository data unavailable"
+    contributions = int(data["total_contributions"])
+    active = int(data["active_days"])
+    card_w, card_h = 258, 128
+    positions = [34, 311, 588]
+    definitions = [
+        {
+            "title": "Role fit", "small": "SOFTWARE · AI · PRODUCT",
+            "value": "Builder mindset",
+            "detail": "Software engineering · AI systems · Product design",
+            "fill": TECH, "ink": "#ffffff",
+        },
+        {
+            "title": "Public proof", "small": "OPEN-SOURCE WORK",
+            "value": public_value,
+            "detail": public_detail,
+            "fill": TEAL, "ink": "#ffffff",
+        },
+        {
+            "title": "Momentum", "small": "LAST 12 MONTHS",
+            "value": f"{contributions:,} contributions",
+            "detail": f"{active} active days",
+            "fill": GOLD, "ink": INK,
+        },
+    ]
+    items = []
+    for index, card in enumerate(definitions):
+        x = positions[index]
+        dly = .5 + index*.18
+        value_size = 21 if len(card["value"]) <= 18 else (18 if len(card["value"]) <= 25 else 15.5)
+        detail_lines = wrap(card["detail"], 31)[:2]
+        detail_markup = text_lines(x+20, 181, detail_lines, 13, f'font-family="{SANS}" font-size="9.4" fill="{card["ink"]}" opacity=".92"')
+        items.append(f"""
+<g class="ti" {delay(dly)}>
+  <rect x="{x}" y="74" width="{card_w}" height="{card_h}" rx="14" fill="{card["fill"]}"/>
+  <circle class="rg" {delay(dly+.3)} cx="{x+card_w-28}" cy="175" r="34" fill="none" stroke="{card["ink"]}" stroke-opacity=".48" stroke-width="2"/>
+  <rect class="sh" style="animation-delay:{dly+1.2:.2f}s" x="{x-100}" y="64" width="72" height="{card_h+20}" fill="url(#proofSheen)"/>
+  <text class="sl" {delay(dly+.18)} x="{x+20}" y="101" font-family="{SANS}" font-size="18" font-weight="600" fill="{card["ink"]}">{esc(card["title"])}</text>
+  <text class="f" {delay(dly+.38)} x="{x+20}" y="124" font-family="{MONO}" font-size="8.8" letter-spacing=".65" fill="{card["ink"]}" opacity=".82">{esc(card["small"])}</text>
+  <text class="ro" {delay(dly+.42)} x="{x+20}" y="157" font-family="{SERIF}" font-size="{value_size}" fill="{card["ink"]}">{esc(card["value"])}</text>
+  {detail_markup}
+</g>
+""")
+    body = f"""
+<defs><linearGradient id="proofSheen" x1="0" x2="1">
+  <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#ffffff" stop-opacity=".34"/>
+  <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient></defs>
+<rect width="{W}" height="248" rx="14" fill="{DARK}"/>
+<text class="r" {delay(.12)} x="{W/2}" y="42" text-anchor="middle" font-family="{SANS}" font-size="22" font-weight="600" fill="#e6edf3">What teams can evaluate quickly</text>
+<line x1="28" y1="55" x2="852" y2="55" stroke="#30363d"/>
+{''.join(items)}
+<text class="f" {delay(1.2)} x="{W/2}" y="231" text-anchor="middle" font-family="{MONO}" font-size="10.2" fill="#9aa4b2">TECH EXPLORER · AI &amp; PROMPT ENGINEERING · LEARNING BY BUILDING</text>
+"""
+    write("team-evaluation.svg", svg(W, 248, body, ["serif", "sans", "sans-b", "mono"],
+                                        f"Role fit, {repo_count} public repositories, {stars} public stars, {contributions:,} contributions and {active} active days."))
+
+
+# ---- About section title and three cards ----------------------------------------
+def about_title() -> None:
+    body = (
+        f'<text class="r" {delay(.12)} x="2" y="45" font-family="{SERIF}" font-size="35" fill="#e6edf3">'
+        f'What I&#39;m <tspan font-style="italic">about</tspan></text>'
+    )
+    write("about-title.svg", svg(W, 56, body, ["serif", "serif-i"], "What I'm about", bottom=0))
