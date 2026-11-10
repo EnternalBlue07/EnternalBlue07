@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="212" viewBox="0 0 340 212" role="img" aria-label="Technical by choice">
+<rect width="340" height="212" rx="18" fill="#F3F3F0"/>
+<rect x="28" y="36" width="10" height="10" rx="3" fill="#FBBF24"/>
+<text x="52" y="47" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#17191E">Technical by choice</text>
+<text x="28" y="91" font-family="Arial, sans-serif" font-size="14.5" fill="#444851">I improve by rebuilding things better,</text>
+<text x="28" y="114" font-family="Arial, sans-serif" font-size="14.5" fill="#444851">understanding how systems work, and</text>
+<text x="28" y="137" font-family="Arial, sans-serif" font-size="14.5" fill="#444851">refining the details that matter.</text>
+<text x="28" y="180" font-family="Consolas, monospace" font-size="12.5" fill="#777D87">Engineering  ·  AI  ·  Systems</text>
+</svg>
