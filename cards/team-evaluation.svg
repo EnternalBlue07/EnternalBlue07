@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="350" viewBox="0 0 1080 350" role="img" aria-label="What teams can evaluate quickly: Role fit, public proof, and momentum">
+<defs>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#315BFF"/>
+    <stop offset="1" stop-color="#2447DF"/>
+  </linearGradient>
+  <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F04438"/>
+    <stop offset="1" stop-color="#E92F27"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFD43B"/>
+    <stop offset="1" stop-color="#F8B91F"/>
+  </linearGradient>
+  <style>
+    .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+  </style>
+</defs>
+<rect width="1080" height="350" fill="#0D1117"/>
+<text x="540" y="40" text-anchor="middle" class="sans" font-size="27" font-weight="700" fill="#E6EDF3">What teams can evaluate quickly</text>
+<line x1="14" y1="66" x2="1066" y2="66" stroke="#30363D" stroke-width="1"/>
+<!-- Role fit -->
+<rect x="18" y="88" width="336" height="190" rx="19" fill="url(#blue)"/>
+<text x="46" y="133" class="sans" font-size="24" font-weight="700" fill="#FFFFFF">Role fit</text>
+<text x="324" y="132" text-anchor="end" class="sans" font-size="26" fill="#FFFFFF">→</text>
+<text x="46" y="184" class="sans" font-size="17.5" fill="#FFFFFF">Software engineering · AI systems ·</text>
+<text x="46" y="213" class="sans" font-size="17.5" fill="#FFFFFF">Product design</text>
+<text x="46" y="252" class="mono" font-size="12.5" fill="#DCE5FF">ENGINEERING  ·  AI  ·  PRODUCT</text>
+<!-- Public proof -->
+<rect x="372" y="88" width="336" height="190" rx="19" fill="url(#coral)"/>
+<text x="400" y="133" class="sans" font-size="24" font-weight="700" fill="#FFFFFF">Public proof</text>
+<text x="678" y="132" text-anchor="end" class="sans" font-size="26" fill="#FFFFFF">→</text>
+<text x="400" y="191" class="sans" font-size="27" font-weight="700" fill="#FFFFFF">29 repositories</text>
+<text x="400" y="223" class="sans" font-size="17.5" fill="#FFFFFF">1 public star</text>
+<text x="400" y="252" class="mono" font-size="12.5" fill="#FFE2DF">OPEN SOURCE  ·  PUBLIC WORK</text>
+<!-- Momentum -->
+<rect x="726" y="88" width="336" height="190" rx="19" fill="url(#gold)"/>
+<text x="754" y="133" class="sans" font-size="24" font-weight="700" fill="#111827">Momentum</text>
+<text x="1032" y="132" text-anchor="end" class="sans" font-size="26" fill="#111827">→</text>
+<text x="754" y="191" class="sans" font-size="27" font-weight="700" fill="#111827">105 contributions</text>
+<text x="754" y="223" class="sans" font-size="17.5" fill="#222222">21 active days</text>
+<text x="754" y="252" class="mono" font-size="12.5" fill="#5C4A18">CONSISTENCY  ·  PRACTICE</text>
+<text x="540" y="316" text-anchor="middle" class="sans" font-size="13.5" fill="#C9D1D9">Tech explorer · AI &amp; prompt engineering enthusiast · Interested in systems, logic, and how things really work</text>
+<text x="540" y="338" text-anchor="middle" class="sans" font-size="13.5" fill="#8B949E">Learning by building, breaking, and rebuilding.</text>
+</svg>
