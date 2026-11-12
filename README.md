@@ -58,7 +58,6 @@
 
 <br/><br/>
 
-<img src="./cards/contribution-activity.svg" width="100%" alt="GitHub contributions over the last 12 months, including monthly activity, current streak, active days, and busiest day"/>
 
 </div>
 
