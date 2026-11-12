@@ -129,24 +129,7 @@
 
 <img src="./cards/heatmap.svg" width="100%" alt="EnternalBlue07 contribution trail — animated blue GitHub heatmap, refreshed daily" />
 
-## Play the next move
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/chess?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-chess-1&mode=dark" width="420" alt="Zumaan Sayyed animated chessboard" />
-</picture>
-
-<p align="center"><sub>THE NEXT SCENE</sub></p>
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=light" />
-  <img src="https://www.gitskins.com/api/section/social?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&v=cinematic-social-2&mode=dark" width="100%" alt="Zumaan Sayyed social profile card" />
-</picture>
-
 <p align="center"><sub>✦ THANKS FOR VISITING ✦</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=48&section=footer&color=0:020617,50:0B1117,100:020408" width="100%" alt="Profile footer"/>
-
 </div>
