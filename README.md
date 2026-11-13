@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./cards/hero-ascii.svg" width="100%" alt="Zumaan Sayyed — animated ASCII portrait and name wordmark"/>
+<img src="./cards/hero-signature.jpg" width="100%" alt="Zumaan Sayyed — personal handwritten signature hero"/>
 
 <br>
 
