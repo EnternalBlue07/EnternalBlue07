@@ -1,11 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/wordmark?username=enternalblue07&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F171252920%3Fu%3Dcc1412495d9e76ba703f777c54ac32b74274d384%26v%3D4&label=Zumaan%20Sayyed&v=cinematic-hero-wordmark-1&mode=dark" width="100%" alt="Zumaan Sayyed ASCII wordmark" />
-</picture>
-
-<p align="center"><strong>SOFTWARE ENGINEER IN THE MAKING · AI BUILDER · SYSTEMS THINKER</strong></p>
+<img src="./cards/hero-ascii.svg" width="100%" alt="Zumaan Sayyed — animated ASCII portrait and name wordmark"/>
 
 <br>
 
