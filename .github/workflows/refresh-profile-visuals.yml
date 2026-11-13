@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/render_profile_visuals.py"
       - "scripts/render_blue_heatmap.py"
+      - "cards/hero-ascii.svg.gz.b64"
       - ".github/workflows/refresh-profile-visuals.yml"
 
 permissions:
@@ -26,6 +27,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install personal ASCII hero from compressed source
+        if: hashFiles('cards/hero-ascii.svg.gz.b64') != ''
+        run: |
+          base64 --decode cards/hero-ascii.svg.gz.b64 | gzip --decompress > cards/hero-ascii.svg
+          rm cards/hero-ascii.svg.gz.b64
+
       - name: Render cards from GitHub contribution data
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -40,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cards/engineering-intent.svg cards/contribution-activity.svg cards/heatmap.svg
+          git add -A cards/hero-ascii.svg cards/hero-ascii.svg.gz.b64 cards/engineering-intent.svg cards/contribution-activity.svg cards/heatmap.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh engineering and activity cards"
             git push
