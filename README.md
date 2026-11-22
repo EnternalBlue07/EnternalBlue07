@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./cards/hero-signature.jpg" width="100%" alt="Zumaan Sayyed — personal handwritten signature hero"/>
+<img src="./cards/hero-signature.svg" width="100%" alt="Zumaan Sayyed — personal handwritten signature hero"/>
 
 <br>
 
