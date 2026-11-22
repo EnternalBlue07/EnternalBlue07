@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+<title id="title">Zumaan Sayyed — handwritten signature hero</title>
+<desc id="desc">A cream editorial hero card with Zumaan Sayyed's name and a sweeping handwritten signature. No portrait.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf6"/><stop offset="1" stop-color="#f0eee8"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".48" stop-color="#fff" stop-opacity=".08"/><stop offset=".52" stop-color="#fff" stop-opacity=".82"/><stop offset=".58" stop-color="#dbeafe" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="card"><rect x="2" y="2" width="1596" height="556" rx="28"/></clipPath>
+  <style>
+    .reveal{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+    .name1{animation-delay:.08s}.name2{animation-delay:.2s}.meta{animation-delay:.32s}.tag{animation-delay:.42s}
+    .sig{stroke-dasharray:1500;stroke-dashoffset:1500;animation:draw 1.8s cubic-bezier(.4,0,.2,1) .35s forwards}
+    .shine{transform:translateX(-1800px);animation:sweep 1.65s ease-out .2s 1 forwards}
+    @keyframes rise{to{opacity:1;transform:translateY(0)}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes sweep{to{transform:translateX(1800px)}}
+    @media(prefers-reduced-motion:reduce){.reveal{opacity:1;animation:none}.sig{stroke-dashoffset:0;animation:none}.shine{display:none}}
+  </style>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1600" height="560" rx="28" fill="url(#paper)"/>
+  <circle cx="104" cy="92" r="8" fill="#315bff"/>
+  <text class="reveal meta" x="136" y="101" font-family="monospace" font-size="23" letter-spacing="2.5" fill="#747780">FULLSTACK ENGINEER  ·  AI BUILDER  ·  SYSTEMS THINKER</text>
+  <text class="reveal name1" x="96" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="184" letter-spacing="-8" fill="#101114">Zumaan</text>
+  <text class="reveal name2" x="104" y="454" font-family="Georgia, 'Times New Roman', serif" font-size="174" font-style="italic" letter-spacing="-7" fill="#101114">Sayyed</text>
+  <path class="reveal tag" d="M104 480v48" stroke="#315bff" stroke-width="6" stroke-linecap="round"/>
+  <text class="reveal tag" x="130" y="502" font-family="Arial, sans-serif" font-size="25" fill="#4d5058">I build AI products, useful software,</text>
+  <text class="reveal tag" x="130" y="535" font-family="Arial, sans-serif" font-size="25" fill="#4d5058">and systems that turn ideas into reality.</text>
+  <g transform="translate(880 116) rotate(-7 300 150)" fill="none" stroke="#111318" stroke-linecap="round" stroke-linejoin="round">
+    <path class="sig" stroke-width="5.5" d="M40 205 C135 155 225 90 360 8 C320 63 270 133 222 202 C190 249 173 293 193 305 C220 323 242 249 254 213 C267 172 280 143 306 151 C330 157 330 202 343 209 C355 215 366 178 384 167 C401 157 406 183 417 189 C432 198 443 164 462 156 C478 149 486 178 500 184 C516 191 531 158 547 151 C563 145 576 165 589 171 C606 178 621 151 636 144"/>
+    <path class="sig" stroke-width="4" d="M35 210 C175 211 305 207 430 198 C515 192 590 177 664 144"/>
+    <path class="sig" stroke-width="3.8" d="M240 245 C320 183 402 118 488 63 C543 28 593 1 647 -26"/>
+  </g>
+  <path class="shine" d="M-360 0h170l560 560h-170z" fill="url(#shine)"/>
+  <rect x="2" y="2" width="1596" height="556" rx="28" fill="none" stroke="#e1dfd8" stroke-width="2"/>
+</g>
+</svg>
